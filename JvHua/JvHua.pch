@@ -1,0 +1,35 @@
+//
+//  JvHua.pch
+//  JvHua
+//
+//  Created by 乔耐 on 15/10/23.
+//  Copyright (c) 2015年 juzi. All rights reserved.
+//
+
+#ifndef JvHua_JvHua_pch
+#define JvHua_JvHua_pch
+
+//配置nslog
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+//#import "UIView+Inspectable.h"
+#import "JHUtils.h"
+#import "JHNewFeatureViewController.h"
+
+//屏幕宽度
+#define SCREENW [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define SCREENH [UIScreen mainScreen].bounds.size.height
+
+//版本号保存的key
+#define KEY_VERSION @"CFBundleShortVersionString"
+
+
+
+#endif
