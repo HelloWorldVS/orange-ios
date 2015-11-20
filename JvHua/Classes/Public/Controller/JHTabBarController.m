@@ -10,7 +10,8 @@
 #import "JHHomeViewController.h"
 #import "JHNavigationController.h"
 #import "JHLoginViewController.h"
-
+#import "JHSellingVC.h"
+#import "JHWalletVC.h"
 @interface JHTabBarController ()
 
 @end
@@ -31,17 +32,18 @@
     
     
     //添加热卖
-    UIViewController *hotCtlt = [[UIViewController alloc] init];
+    JHSellingVC *hotCtlt = [[JHSellingVC alloc] init];
     [self addChildViewCtrlWithTitle:@"热卖" image:@"tabbar_discover" ctrl:hotCtlt];
     
     
     //添加钱包
-    UIViewController *mineCtlt = [[UIViewController alloc] init];
-    [self addChildViewCtrlWithTitle:@"钱包" image:@"tabbar_wallet" ctrl:mineCtlt];
+    
+    JHWalletVC *walletCtlt = [[JHWalletVC alloc] init];
+    [self addChildViewCtrlWithTitle:@"钱包" image:@"tabbar_wallet" ctrl:walletCtlt];
     
     //添加我的
-    JHLoginViewController *mainCtlt = [[JHLoginViewController alloc] init];
-    [self addChildViewCtrlWithTitle:@"我的" image:@"tabbar_profile" ctrl:mainCtlt];
+    JHLoginViewController *mineCtlt = [[JHLoginViewController alloc] init];
+    [self addChildViewCtrlWithTitle:@"我的" image:@"tabbar_profile" ctrl:mineCtlt];
     
     
     

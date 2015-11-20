@@ -18,18 +18,37 @@
 
 #import "UIBarButtonItem+Extension.h"
 #import "UIView+Extension.h"
-//#import "UIView+Inspectable.h"
 #import "JHUtils.h"
 #import "JHNewFeatureViewController.h"
+#import "LGAlertView.h"
+
+
+#import "Interface.h"
+
+
 
 //屏幕宽度
 #define SCREENW [UIScreen mainScreen].bounds.size.width
 //屏幕高度
 #define SCREENH [UIScreen mainScreen].bounds.size.height
 
+//颜色
+#define KGreenColor [UIColor colorWithRed:22/256.0 green:205/256.0 blue:176 /256.0 alpha:1]
+#define KDarkColor [UIColor colorWithRed:81/256.0 green:81/256.0 blue:81/256.0 alpha:1]
+#define KGreyColor [UIColor colorWithRed:173/256.0 green:173/256.0 blue:173/256.0 alpha:1]
+#define KRedColor [UIColor colorWithRed:255/256.0 green:255/256.0 blue:89/256.0 alpha:1]
+
+
 //版本号保存的key
 #define KEY_VERSION @"CFBundleShortVersionString"
 
+//请求
+#define RequestURL @"http://api.manytu.com/"
+
+#define DEFAULT [NSUserDefaults standardUserDefaults]
+
+#define APPKEY    @"uwd1c0sxd3lh1"  //pvxdm17jx82kr
+#define APPSecret    @"SAPzkcwHwlWw" //UhytQrAR8Ot
 
 
 #endif

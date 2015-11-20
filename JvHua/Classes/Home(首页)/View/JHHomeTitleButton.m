@@ -29,7 +29,7 @@
     //再调整imageView的位置
     self.imageView.x = CGRectGetMaxX(self.titleLabel.frame) + 5;
     
-    //下面这句代码会产生递归调用
+    //这代码会产生递归调用
 //    [self sizeToFit];
     
     //尽量不要在layoutSubviews这个方法里面去调整自己的位置

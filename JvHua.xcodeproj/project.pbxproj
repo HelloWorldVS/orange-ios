@@ -20,16 +20,38 @@
 		C408913B1BDA230D00F090B1 /* JHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40891231BDA230D00F090B1 /* JHTabBarController.m */; };
 		C408913C1BDA230D00F090B1 /* JHTemp2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = C408912D1BDA230D00F090B1 /* JHTemp2Controller.m */; };
 		C40891451BDB2F0D00F090B1 /* JHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C40891441BDB2F0D00F090B1 /* JHUtils.m */; };
-		C490D8EE1BE0A37C00FCE193 /* JHLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C490D8ED1BE0A37C00FCE193 /* JHLoginViewController.storyboard */; };
+		C4400AAE1BF9714700D125E3 /* JHHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4400AAD1BF9714700D125E3 /* JHHeaderView.m */; };
+		C4400AB01BF9719D00D125E3 /* JHHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4400AAF1BF9719D00D125E3 /* JHHeaderView.xib */; };
+		C457919E1BEB75E5009C297C /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C457919A1BEB75E4009C297C /* MBProgressHUD+MJ.m */; };
+		C457919F1BEB75E5009C297C /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C457919B1BEB75E4009C297C /* MBProgressHUD.bundle */; };
+		C45791A01BEB75E5009C297C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C457919D1BEB75E4009C297C /* MBProgressHUD.m */; };
+		C45791A51BEB8129009C297C /* OZHNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = C45791A41BEB8129009C297C /* OZHNetWork.m */; };
+		C45BFFA01BFD6399002600BE /* JHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BFF9F1BFD6399002600BE /* JHBaseTableViewController.m */; };
+		C45BFFA61BFD6577002600BE /* JHCommonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BFFA51BFD6577002600BE /* JHCommonItem.m */; };
+		C45BFFA91BFD6619002600BE /* JHCommonItemArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BFFA81BFD6619002600BE /* JHCommonItemArrow.m */; };
+		C45BFFAC1BFD664B002600BE /* JHCommonItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BFFAB1BFD664B002600BE /* JHCommonItemLabel.m */; };
+		C45BFFAF1BFD667F002600BE /* JHCommonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BFFAE1BFD667F002600BE /* JHCommonGroup.m */; };
+		C45BFFB21BFD6776002600BE /* JHCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C45BFFB11BFD6776002600BE /* JHCommonCell.m */; };
+		C468766F1BFC0DA9007606DE /* JHSellingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C468766E1BFC0DA9007606DE /* JHSellingVC.m */; };
+		C46876701BFC1ACC007606DE /* JHForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AF87A1BF1CEFD00D26C7B /* JHForgetPasswordViewController.m */; };
+		C46876711BFC1ADF007606DE /* LGAlertView.h in Sources */ = {isa = PBXBuildFile; fileRef = C4FC11E31BEDE10F00E84F17 /* LGAlertView.h */; };
+		C46876721BFC1ADF007606DE /* LGAlertViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = C4FC11E51BEDE10F00E84F17 /* LGAlertViewCell.h */; };
+		C46876731BFC1ADF007606DE /* LGAlertViewShared.h in Sources */ = {isa = PBXBuildFile; fileRef = C4FC11E71BEDE10F00E84F17 /* LGAlertViewShared.h */; };
+		C46876741BFC1ADF007606DE /* LGAlertViewTextField.h in Sources */ = {isa = PBXBuildFile; fileRef = C4FC11E81BEDE10F00E84F17 /* LGAlertViewTextField.h */; };
+		C46876781BFC4E91007606DE /* JHWalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C46876761BFC4E91007606DE /* JHWalletVC.m */; };
+		C468767D1BFC5F5D007606DE /* JHHomeTitleButton.h in Sources */ = {isa = PBXBuildFile; fileRef = C4F0DD741BE84BC70051A24A /* JHHomeTitleButton.h */; };
+		C46AF8901BF1CEFD00D26C7B /* JHChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AF8771BF1CEFD00D26C7B /* JHChangePasswordViewController.m */; };
+		C46AF8911BF1CEFD00D26C7B /* JHChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46AF8781BF1CEFD00D26C7B /* JHChangePasswordViewController.xib */; };
+		C46AF8931BF1CEFD00D26C7B /* JHForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46AF87B1BF1CEFD00D26C7B /* JHForgetPasswordViewController.xib */; };
+		C46AF8941BF1CEFD00D26C7B /* JHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AF87D1BF1CEFD00D26C7B /* JHLoginViewController.m */; };
+		C46AF8951BF1CEFD00D26C7B /* JHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46AF87E1BF1CEFD00D26C7B /* JHLoginViewController.xib */; };
+		C46AF8961BF1CEFD00D26C7B /* JHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AF8801BF1CEFD00D26C7B /* JHRegisterViewController.m */; };
+		C46AF8971BF1CEFD00D26C7B /* JHRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46AF8811BF1CEFD00D26C7B /* JHRegisterViewController.xib */; };
+		C46AF8981BF1CEFD00D26C7B /* JHLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46AF8841BF1CEFD00D26C7B /* JHLoginViewController.storyboard */; };
+		C46AF8991BF1CEFD00D26C7B /* JHPersonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AF8881BF1CEFD00D26C7B /* JHPersonalTableViewController.m */; };
+		C46AF89A1BF1CEFD00D26C7B /* JHPersonalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46AF8891BF1CEFD00D26C7B /* JHPersonalTableViewController.xib */; };
+		C46CEEA61BFB31A000FB7E17 /* JHPersonal.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CEEA51BFB31A000FB7E17 /* JHPersonal.m */; };
 		C4F0DD761BE84BC70051A24A /* JHHomeTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */; };
-		C4F1DC911BE9A0D60041984A /* JHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DC901BE9A0D60041984A /* JHLoginViewController.m */; };
-		C4F1DC951BE9A16A0041984A /* JHForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DC931BE9A16A0041984A /* JHForgetPasswordViewController.m */; };
-		C4F1DC961BE9A16A0041984A /* JHForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F1DC941BE9A16A0041984A /* JHForgetPasswordViewController.xib */; };
-		C4F1DC991BE9A27A0041984A /* JHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DC981BE9A27A0041984A /* JHRegisterViewController.m */; };
-		C4F1DC9D1BE9A2FB0041984A /* JHChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DC9B1BE9A2FB0041984A /* JHChangePasswordViewController.m */; };
-		C4F1DC9E1BE9A2FC0041984A /* JHChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F1DC9C1BE9A2FB0041984A /* JHChangePasswordViewController.xib */; };
-		C4F1DD361BE9FA530041984A /* JHResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD341BE9FA530041984A /* JHResetPasswordViewController.m */; };
-		C4F1DD371BE9FA530041984A /* JHResetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F1DD351BE9FA530041984A /* JHResetPasswordViewController.xib */; };
 		C4F1DD4E1BEAF1820041984A /* MyMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD4D1BEAF1820041984A /* MyMD5.m */; };
 		C4F1DD731BEAF2D50041984A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C4F1DD501BEAF2D50041984A /* .gitignore */; };
 		C4F1DD741BEAF2D50041984A /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD521BEAF2D50041984A /* AESCrypt.m */; };
@@ -49,13 +71,10 @@
 		C4F1DD821BEAF2D50041984A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD6E1BEAF2D50041984A /* AFURLResponseSerialization.m */; };
 		C4F1DD831BEAF2D50041984A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD701BEAF2D50041984A /* AFURLSessionManager.m */; };
 		C4F1DD841BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD721BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.m */; };
-		C4F1DD861BEAF3C70041984A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F1DD851BEAF3C70041984A /* libxml2.2.dylib */; };
-		C4F1DD881BEAF3E00041984A /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F1DD871BEAF3E00041984A /* libstdc++.dylib */; };
-		C4F1DD8A1BEAF3ED0041984A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F1DD891BEAF3ED0041984A /* libz.dylib */; };
-		C4F1DD8C1BEAF4030041984A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F1DD8B1BEAF4030041984A /* libsqlite3.0.dylib */; };
 		C4F1DD8E1BEAF4130041984A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F1DD8D1BEAF4130041984A /* Foundation.framework */; };
-		C4F6F9571BE302A000DD1EDD /* JHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F6F9551BE302A000DD1EDD /* JHLoginViewController.xib */; };
-		C4F6F9661BE32C4D00DD1EDD /* JHRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F6F9641BE32C4D00DD1EDD /* JHRegisterViewController.xib */; };
+		C4FC11EA1BEDE10F00E84F17 /* LGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC11E41BEDE10F00E84F17 /* LGAlertView.m */; };
+		C4FC11EB1BEDE10F00E84F17 /* LGAlertViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC11E61BEDE10F00E84F17 /* LGAlertViewCell.m */; };
+		C4FC11EC1BEDE10F00E84F17 /* LGAlertViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC11E91BEDE10F00E84F17 /* LGAlertViewTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,22 +115,53 @@
 		C408913D1BDA237500F090B1 /* JvHua.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JvHua.pch; sourceTree = "<group>"; };
 		C40891431BDB2F0D00F090B1 /* JHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUtils.h; sourceTree = "<group>"; };
 		C40891441BDB2F0D00F090B1 /* JHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUtils.m; sourceTree = "<group>"; };
-		C490D8ED1BE0A37C00FCE193 /* JHLoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = JHLoginViewController.storyboard; path = "JvHua/Classes/Mine(我的)/view/JHLoginViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		C4400AAC1BF9714700D125E3 /* JHHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHeaderView.h; sourceTree = "<group>"; };
+		C4400AAD1BF9714700D125E3 /* JHHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHeaderView.m; sourceTree = "<group>"; };
+		C4400AAF1BF9719D00D125E3 /* JHHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHHeaderView.xib; sourceTree = "<group>"; };
+		C45791991BEB75E4009C297C /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		C457919A1BEB75E4009C297C /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		C457919B1BEB75E4009C297C /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		C457919C1BEB75E4009C297C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C457919D1BEB75E4009C297C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C45791A31BEB8129009C297C /* OZHNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZHNetWork.h; sourceTree = "<group>"; };
+		C45791A41BEB8129009C297C /* OZHNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZHNetWork.m; sourceTree = "<group>"; };
+		C45791A61BEB8243009C297C /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		C45BFF9E1BFD6399002600BE /* JHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseTableViewController.h; sourceTree = "<group>"; };
+		C45BFF9F1BFD6399002600BE /* JHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseTableViewController.m; sourceTree = "<group>"; };
+		C45BFFA41BFD6577002600BE /* JHCommonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCommonItem.h; sourceTree = "<group>"; };
+		C45BFFA51BFD6577002600BE /* JHCommonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCommonItem.m; sourceTree = "<group>"; };
+		C45BFFA71BFD6619002600BE /* JHCommonItemArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCommonItemArrow.h; sourceTree = "<group>"; };
+		C45BFFA81BFD6619002600BE /* JHCommonItemArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCommonItemArrow.m; sourceTree = "<group>"; };
+		C45BFFAA1BFD664B002600BE /* JHCommonItemLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCommonItemLabel.h; sourceTree = "<group>"; };
+		C45BFFAB1BFD664B002600BE /* JHCommonItemLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCommonItemLabel.m; sourceTree = "<group>"; };
+		C45BFFAD1BFD667F002600BE /* JHCommonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCommonGroup.h; sourceTree = "<group>"; };
+		C45BFFAE1BFD667F002600BE /* JHCommonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCommonGroup.m; sourceTree = "<group>"; };
+		C45BFFB01BFD6776002600BE /* JHCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHCommonCell.h; path = "JvHua/Classes/Mine(我的)/Login(登陆)/Model/JHCommonCell.h"; sourceTree = SOURCE_ROOT; };
+		C45BFFB11BFD6776002600BE /* JHCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHCommonCell.m; path = "JvHua/Classes/Mine(我的)/Login(登陆)/Model/JHCommonCell.m"; sourceTree = SOURCE_ROOT; };
+		C468766D1BFC0DA9007606DE /* JHSellingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHSellingVC.h; path = "JvHua/Classes/Mine(我的)/personal(个人中心)/Model/JHSellingVC.h"; sourceTree = SOURCE_ROOT; };
+		C468766E1BFC0DA9007606DE /* JHSellingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHSellingVC.m; path = "JvHua/Classes/Mine(我的)/personal(个人中心)/Model/JHSellingVC.m"; sourceTree = SOURCE_ROOT; };
+		C46876751BFC4E91007606DE /* JHWalletVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHWalletVC.h; path = "JvHua/Classes/Mine(我的)/personal(个人中心)/Model/JHWalletVC.h"; sourceTree = SOURCE_ROOT; };
+		C46876761BFC4E91007606DE /* JHWalletVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHWalletVC.m; path = "JvHua/Classes/Mine(我的)/personal(个人中心)/Model/JHWalletVC.m"; sourceTree = SOURCE_ROOT; };
+		C46AF8761BF1CEFD00D26C7B /* JHChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChangePasswordViewController.h; sourceTree = "<group>"; };
+		C46AF8771BF1CEFD00D26C7B /* JHChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChangePasswordViewController.m; sourceTree = "<group>"; };
+		C46AF8781BF1CEFD00D26C7B /* JHChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHChangePasswordViewController.xib; sourceTree = "<group>"; };
+		C46AF8791BF1CEFD00D26C7B /* JHForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHForgetPasswordViewController.h; sourceTree = "<group>"; };
+		C46AF87A1BF1CEFD00D26C7B /* JHForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHForgetPasswordViewController.m; sourceTree = "<group>"; };
+		C46AF87B1BF1CEFD00D26C7B /* JHForgetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHForgetPasswordViewController.xib; sourceTree = "<group>"; };
+		C46AF87C1BF1CEFD00D26C7B /* JHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLoginViewController.h; sourceTree = "<group>"; };
+		C46AF87D1BF1CEFD00D26C7B /* JHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLoginViewController.m; sourceTree = "<group>"; };
+		C46AF87E1BF1CEFD00D26C7B /* JHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLoginViewController.xib; sourceTree = "<group>"; };
+		C46AF87F1BF1CEFD00D26C7B /* JHRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRegisterViewController.h; sourceTree = "<group>"; };
+		C46AF8801BF1CEFD00D26C7B /* JHRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRegisterViewController.m; sourceTree = "<group>"; };
+		C46AF8811BF1CEFD00D26C7B /* JHRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHRegisterViewController.xib; sourceTree = "<group>"; };
+		C46AF8841BF1CEFD00D26C7B /* JHLoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JHLoginViewController.storyboard; sourceTree = "<group>"; };
+		C46AF8871BF1CEFD00D26C7B /* JHPersonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPersonalTableViewController.h; sourceTree = "<group>"; };
+		C46AF8881BF1CEFD00D26C7B /* JHPersonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPersonalTableViewController.m; sourceTree = "<group>"; };
+		C46AF8891BF1CEFD00D26C7B /* JHPersonalTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHPersonalTableViewController.xib; sourceTree = "<group>"; };
+		C46CEEA41BFB31A000FB7E17 /* JHPersonal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPersonal.h; sourceTree = "<group>"; };
+		C46CEEA51BFB31A000FB7E17 /* JHPersonal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPersonal.m; sourceTree = "<group>"; };
 		C4F0DD741BE84BC70051A24A /* JHHomeTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHomeTitleButton.h; sourceTree = "<group>"; };
 		C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHomeTitleButton.m; sourceTree = "<group>"; };
-		C4F1DC8F1BE9A0D60041984A /* JHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLoginViewController.h; sourceTree = "<group>"; };
-		C4F1DC901BE9A0D60041984A /* JHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLoginViewController.m; sourceTree = "<group>"; };
-		C4F1DC921BE9A16A0041984A /* JHForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHForgetPasswordViewController.h; sourceTree = "<group>"; };
-		C4F1DC931BE9A16A0041984A /* JHForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHForgetPasswordViewController.m; sourceTree = "<group>"; };
-		C4F1DC941BE9A16A0041984A /* JHForgetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHForgetPasswordViewController.xib; sourceTree = "<group>"; };
-		C4F1DC971BE9A27A0041984A /* JHRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRegisterViewController.h; sourceTree = "<group>"; };
-		C4F1DC981BE9A27A0041984A /* JHRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRegisterViewController.m; sourceTree = "<group>"; };
-		C4F1DC9A1BE9A2FB0041984A /* JHChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChangePasswordViewController.h; sourceTree = "<group>"; };
-		C4F1DC9B1BE9A2FB0041984A /* JHChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChangePasswordViewController.m; sourceTree = "<group>"; };
-		C4F1DC9C1BE9A2FB0041984A /* JHChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHChangePasswordViewController.xib; sourceTree = "<group>"; };
-		C4F1DD331BE9FA530041984A /* JHResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHResetPasswordViewController.h; sourceTree = "<group>"; };
-		C4F1DD341BE9FA530041984A /* JHResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHResetPasswordViewController.m; sourceTree = "<group>"; };
-		C4F1DD351BE9FA530041984A /* JHResetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHResetPasswordViewController.xib; sourceTree = "<group>"; };
 		C4F1DD4C1BEAF1820041984A /* MyMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMD5.h; sourceTree = "<group>"; };
 		C4F1DD4D1BEAF1820041984A /* MyMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMD5.m; sourceTree = "<group>"; };
 		C4F1DD501BEAF2D50041984A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -148,13 +198,14 @@
 		C4F1DD701BEAF2D50041984A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		C4F1DD711BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		C4F1DD721BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		C4F1DD851BEAF3C70041984A /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		C4F1DD871BEAF3E00041984A /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		C4F1DD891BEAF3ED0041984A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		C4F1DD8B1BEAF4030041984A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		C4F1DD8D1BEAF4130041984A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C4F6F9551BE302A000DD1EDD /* JHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHLoginViewController.xib; sourceTree = "<group>"; };
-		C4F6F9641BE32C4D00DD1EDD /* JHRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHRegisterViewController.xib; sourceTree = "<group>"; };
+		C4FC11E31BEDE10F00E84F17 /* LGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAlertView.h; sourceTree = "<group>"; };
+		C4FC11E41BEDE10F00E84F17 /* LGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAlertView.m; sourceTree = "<group>"; };
+		C4FC11E51BEDE10F00E84F17 /* LGAlertViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAlertViewCell.h; sourceTree = "<group>"; };
+		C4FC11E61BEDE10F00E84F17 /* LGAlertViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAlertViewCell.m; sourceTree = "<group>"; };
+		C4FC11E71BEDE10F00E84F17 /* LGAlertViewShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAlertViewShared.h; sourceTree = "<group>"; };
+		C4FC11E81BEDE10F00E84F17 /* LGAlertViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAlertViewTextField.h; sourceTree = "<group>"; };
+		C4FC11E91BEDE10F00E84F17 /* LGAlertViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAlertViewTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,10 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F1DD8E1BEAF4130041984A /* Foundation.framework in Frameworks */,
-				C4F1DD8C1BEAF4030041984A /* libsqlite3.0.dylib in Frameworks */,
-				C4F1DD8A1BEAF3ED0041984A /* libz.dylib in Frameworks */,
-				C4F1DD881BEAF3E00041984A /* libstdc++.dylib in Frameworks */,
-				C4F1DD861BEAF3C70041984A /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,10 +231,6 @@
 			isa = PBXGroup;
 			children = (
 				C4F1DD8D1BEAF4130041984A /* Foundation.framework */,
-				C4F1DD8B1BEAF4030041984A /* libsqlite3.0.dylib */,
-				C4F1DD891BEAF3ED0041984A /* libz.dylib */,
-				C4F1DD871BEAF3E00041984A /* libstdc++.dylib */,
-				C4F1DD851BEAF3C70041984A /* libxml2.2.dylib */,
 				C40890D91BDA21E300F090B1 /* JvHua */,
 				C40890F31BDA21E300F090B1 /* JvHuaTests */,
 				C40890D81BDA21E300F090B1 /* Products */,
@@ -328,48 +371,11 @@
 		C408910B1BDA230D00F090B1 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
-				C408910C1BDA230D00F090B1 /* Controller */,
-				C408910F1BDA230D00F090B1 /* Model */,
-				C40891101BDA230D00F090B1 /* View */,
+				C46AF8741BF1CEFD00D26C7B /* Login(登陆) */,
+				C46AF8851BF1CEFD00D26C7B /* personal(个人中心) */,
+				C46AF88C1BF1CEFD00D26C7B /* Setting(设置) */,
 			);
 			path = "Mine(我的)";
-			sourceTree = "<group>";
-		};
-		C408910C1BDA230D00F090B1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C4F1DC8F1BE9A0D60041984A /* JHLoginViewController.h */,
-				C4F1DC901BE9A0D60041984A /* JHLoginViewController.m */,
-				C4F6F9551BE302A000DD1EDD /* JHLoginViewController.xib */,
-				C4F1DC921BE9A16A0041984A /* JHForgetPasswordViewController.h */,
-				C4F1DC931BE9A16A0041984A /* JHForgetPasswordViewController.m */,
-				C4F1DC941BE9A16A0041984A /* JHForgetPasswordViewController.xib */,
-				C4F1DD331BE9FA530041984A /* JHResetPasswordViewController.h */,
-				C4F1DD341BE9FA530041984A /* JHResetPasswordViewController.m */,
-				C4F1DD351BE9FA530041984A /* JHResetPasswordViewController.xib */,
-				C4F1DC971BE9A27A0041984A /* JHRegisterViewController.h */,
-				C4F1DC981BE9A27A0041984A /* JHRegisterViewController.m */,
-				C4F6F9641BE32C4D00DD1EDD /* JHRegisterViewController.xib */,
-				C4F1DC9A1BE9A2FB0041984A /* JHChangePasswordViewController.h */,
-				C4F1DC9B1BE9A2FB0041984A /* JHChangePasswordViewController.m */,
-				C4F1DC9C1BE9A2FB0041984A /* JHChangePasswordViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C408910F1BDA230D00F090B1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C40891101BDA230D00F090B1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C490D8ED1BE0A37C00FCE193 /* JHLoginViewController.storyboard */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		C40891131BDA230D00F090B1 /* NewFeature */ = {
@@ -408,6 +414,7 @@
 		C40891191BDA230D00F090B1 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				C45791A11BEB80C6009C297C /* Tools */,
 				C40891421BDB2F0D00F090B1 /* Utils */,
 				C408911A1BDA230D00F090B1 /* Category */,
 				C408911F1BDA230D00F090B1 /* Controller */,
@@ -435,6 +442,8 @@
 				C40891211BDA230D00F090B1 /* JHNavigationController.m */,
 				C40891221BDA230D00F090B1 /* JHTabBarController.h */,
 				C40891231BDA230D00F090B1 /* JHTabBarController.m */,
+				C45BFF9E1BFD6399002600BE /* JHBaseTableViewController.h */,
+				C45BFF9F1BFD6399002600BE /* JHBaseTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -449,6 +458,8 @@
 		C40891251BDA230D00F090B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C45BFFB01BFD6776002600BE /* JHCommonCell.h */,
+				C45BFFB11BFD6776002600BE /* JHCommonCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -466,6 +477,8 @@
 		C40891271BDA230D00F090B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C468766D1BFC0DA9007606DE /* JHSellingVC.h */,
+				C468766E1BFC0DA9007606DE /* JHSellingVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -530,6 +543,8 @@
 		C40891311BDA230D00F090B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C46876751BFC4E91007606DE /* JHWalletVC.h */,
+				C46876761BFC4E91007606DE /* JHWalletVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -559,9 +574,163 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		C45791981BEB75E4009C297C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C45791991BEB75E4009C297C /* MBProgressHUD+MJ.h */,
+				C457919A1BEB75E4009C297C /* MBProgressHUD+MJ.m */,
+				C457919B1BEB75E4009C297C /* MBProgressHUD.bundle */,
+				C457919C1BEB75E4009C297C /* MBProgressHUD.h */,
+				C457919D1BEB75E4009C297C /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C45791A11BEB80C6009C297C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C45791A21BEB80C6009C297C /* NetWork */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C45791A21BEB80C6009C297C /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				C45791A61BEB8243009C297C /* Interface.h */,
+				C45791A31BEB8129009C297C /* OZHNetWork.h */,
+				C45791A41BEB8129009C297C /* OZHNetWork.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		C46AF8741BF1CEFD00D26C7B /* Login(登陆) */ = {
+			isa = PBXGroup;
+			children = (
+				C46AF8751BF1CEFD00D26C7B /* Controller */,
+				C46AF8821BF1CEFD00D26C7B /* Model */,
+				C46AF8831BF1CEFD00D26C7B /* View */,
+			);
+			path = "Login(登陆)";
+			sourceTree = "<group>";
+		};
+		C46AF8751BF1CEFD00D26C7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C46AF8761BF1CEFD00D26C7B /* JHChangePasswordViewController.h */,
+				C46AF8771BF1CEFD00D26C7B /* JHChangePasswordViewController.m */,
+				C46AF8781BF1CEFD00D26C7B /* JHChangePasswordViewController.xib */,
+				C46AF8791BF1CEFD00D26C7B /* JHForgetPasswordViewController.h */,
+				C46AF87A1BF1CEFD00D26C7B /* JHForgetPasswordViewController.m */,
+				C46AF87B1BF1CEFD00D26C7B /* JHForgetPasswordViewController.xib */,
+				C46AF87C1BF1CEFD00D26C7B /* JHLoginViewController.h */,
+				C46AF87D1BF1CEFD00D26C7B /* JHLoginViewController.m */,
+				C46AF87E1BF1CEFD00D26C7B /* JHLoginViewController.xib */,
+				C46AF87F1BF1CEFD00D26C7B /* JHRegisterViewController.h */,
+				C46AF8801BF1CEFD00D26C7B /* JHRegisterViewController.m */,
+				C46AF8811BF1CEFD00D26C7B /* JHRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C46AF8821BF1CEFD00D26C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C45BFFA41BFD6577002600BE /* JHCommonItem.h */,
+				C45BFFA51BFD6577002600BE /* JHCommonItem.m */,
+				C45BFFA71BFD6619002600BE /* JHCommonItemArrow.h */,
+				C45BFFA81BFD6619002600BE /* JHCommonItemArrow.m */,
+				C45BFFAA1BFD664B002600BE /* JHCommonItemLabel.h */,
+				C45BFFAB1BFD664B002600BE /* JHCommonItemLabel.m */,
+				C45BFFAD1BFD667F002600BE /* JHCommonGroup.h */,
+				C45BFFAE1BFD667F002600BE /* JHCommonGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C46AF8831BF1CEFD00D26C7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C46AF8841BF1CEFD00D26C7B /* JHLoginViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C46AF8851BF1CEFD00D26C7B /* personal(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				C46AF8861BF1CEFD00D26C7B /* Controller */,
+				C46AF88A1BF1CEFD00D26C7B /* Model */,
+				C46AF88B1BF1CEFD00D26C7B /* View */,
+			);
+			path = "personal(个人中心)";
+			sourceTree = "<group>";
+		};
+		C46AF8861BF1CEFD00D26C7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C46AF8871BF1CEFD00D26C7B /* JHPersonalTableViewController.h */,
+				C46AF8881BF1CEFD00D26C7B /* JHPersonalTableViewController.m */,
+				C46AF8891BF1CEFD00D26C7B /* JHPersonalTableViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C46AF88A1BF1CEFD00D26C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C46CEEA41BFB31A000FB7E17 /* JHPersonal.h */,
+				C46CEEA51BFB31A000FB7E17 /* JHPersonal.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C46AF88B1BF1CEFD00D26C7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4400AAC1BF9714700D125E3 /* JHHeaderView.h */,
+				C4400AAD1BF9714700D125E3 /* JHHeaderView.m */,
+				C4400AAF1BF9719D00D125E3 /* JHHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C46AF88C1BF1CEFD00D26C7B /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				C46AF88D1BF1CEFD00D26C7B /* Controller */,
+				C46AF88E1BF1CEFD00D26C7B /* Model */,
+				C46AF88F1BF1CEFD00D26C7B /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		C46AF88D1BF1CEFD00D26C7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C46AF88E1BF1CEFD00D26C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C46AF88F1BF1CEFD00D26C7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C4F0DD7F1BE8C28B0051A24A /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC11E21BEDE10F00E84F17 /* LGAlertView */,
+				C45791981BEB75E4009C297C /* MBProgressHUD */,
 				C4F1DD4F1BEAF2D50041984A /* AESCrypt-ObjC-master */,
 				C4F1DD5B1BEAF2D50041984A /* AFNetworking */,
 			);
@@ -614,6 +783,20 @@
 				C4F1DD721BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C4FC11E21BEDE10F00E84F17 /* LGAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC11E31BEDE10F00E84F17 /* LGAlertView.h */,
+				C4FC11E41BEDE10F00E84F17 /* LGAlertView.m */,
+				C4FC11E51BEDE10F00E84F17 /* LGAlertViewCell.h */,
+				C4FC11E61BEDE10F00E84F17 /* LGAlertViewCell.m */,
+				C4FC11E71BEDE10F00E84F17 /* LGAlertViewShared.h */,
+				C4FC11E81BEDE10F00E84F17 /* LGAlertViewTextField.h */,
+				C4FC11E91BEDE10F00E84F17 /* LGAlertViewTextField.m */,
+			);
+			path = LGAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -697,16 +880,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4F6F9571BE302A000DD1EDD /* JHLoginViewController.xib in Resources */,
-				C4F1DC961BE9A16A0041984A /* JHForgetPasswordViewController.xib in Resources */,
-				C4F6F9661BE32C4D00DD1EDD /* JHRegisterViewController.xib in Resources */,
-				C490D8EE1BE0A37C00FCE193 /* JHLoginViewController.storyboard in Resources */,
+				C46AF8981BF1CEFD00D26C7B /* JHLoginViewController.storyboard in Resources */,
+				C457919F1BEB75E5009C297C /* MBProgressHUD.bundle in Resources */,
+				C46AF89A1BF1CEFD00D26C7B /* JHPersonalTableViewController.xib in Resources */,
+				C46AF8931BF1CEFD00D26C7B /* JHForgetPasswordViewController.xib in Resources */,
+				C46AF8971BF1CEFD00D26C7B /* JHRegisterViewController.xib in Resources */,
+				C46AF8911BF1CEFD00D26C7B /* JHChangePasswordViewController.xib in Resources */,
 				C4F1DD751BEAF2D50041984A /* LICENSE in Resources */,
+				C4400AB01BF9719D00D125E3 /* JHHeaderView.xib in Resources */,
+				C46AF8951BF1CEFD00D26C7B /* JHLoginViewController.xib in Resources */,
 				C40890EB1BDA21E300F090B1 /* LaunchScreen.xib in Resources */,
-				C4F1DD371BE9FA530041984A /* JHResetPasswordViewController.xib in Resources */,
 				C40890E81BDA21E300F090B1 /* Images.xcassets in Resources */,
 				C4F1DD731BEAF2D50041984A /* .gitignore in Resources */,
-				C4F1DC9E1BE9A2FC0041984A /* JHChangePasswordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,38 +909,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C468767D1BFC5F5D007606DE /* JHHomeTitleButton.h in Sources */,
+				C46876711BFC1ADF007606DE /* LGAlertView.h in Sources */,
+				C46876721BFC1ADF007606DE /* LGAlertViewCell.h in Sources */,
+				C46876731BFC1ADF007606DE /* LGAlertViewShared.h in Sources */,
+				C46876741BFC1ADF007606DE /* LGAlertViewTextField.h in Sources */,
+				C45BFFA91BFD6619002600BE /* JHCommonItemArrow.m in Sources */,
+				C45BFFAF1BFD667F002600BE /* JHCommonGroup.m in Sources */,
+				C46876701BFC1ACC007606DE /* JHForgetPasswordViewController.m in Sources */,
 				C4F1DD7F1BEAF2D50041984A /* AFSecurityPolicy.m in Sources */,
 				C4F1DD761BEAF2D50041984A /* NSData+Base64.m in Sources */,
-				C4F1DC911BE9A0D60041984A /* JHLoginViewController.m in Sources */,
 				C4F1DD841BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				C4F1DD7A1BEAF2D50041984A /* AFHTTPRequestOperation.m in Sources */,
 				C40891371BDA230D00F090B1 /* JHNewFeatureViewController.m in Sources */,
+				C45BFFAC1BFD664B002600BE /* JHCommonItemLabel.m in Sources */,
 				C4F1DD801BEAF2D50041984A /* AFURLConnectionOperation.m in Sources */,
 				C4F0DD761BE84BC70051A24A /* JHHomeTitleButton.m in Sources */,
-				C4F1DC951BE9A16A0041984A /* JHForgetPasswordViewController.m in Sources */,
+				C457919E1BEB75E5009C297C /* MBProgressHUD+MJ.m in Sources */,
 				C4F1DD4E1BEAF1820041984A /* MyMD5.m in Sources */,
+				C46AF8961BF1CEFD00D26C7B /* JHRegisterViewController.m in Sources */,
 				C4F1DD831BEAF2D50041984A /* AFURLSessionManager.m in Sources */,
 				C4F1DD781BEAF2D50041984A /* NSString+Base64.m in Sources */,
+				C4FC11EB1BEDE10F00E84F17 /* LGAlertViewCell.m in Sources */,
 				C408913B1BDA230D00F090B1 /* JHTabBarController.m in Sources */,
+				C468766F1BFC0DA9007606DE /* JHSellingVC.m in Sources */,
+				C45BFFB21BFD6776002600BE /* JHCommonCell.m in Sources */,
+				C45791A51BEB8129009C297C /* OZHNetWork.m in Sources */,
 				C40891381BDA230D00F090B1 /* UIBarButtonItem+Extension.m in Sources */,
 				C40891451BDB2F0D00F090B1 /* JHUtils.m in Sources */,
 				C40890E01BDA21E300F090B1 /* AppDelegate.m in Sources */,
 				C4F1DD821BEAF2D50041984A /* AFURLResponseSerialization.m in Sources */,
 				C4F1DD7C1BEAF2D50041984A /* AFHTTPSessionManager.m in Sources */,
 				C40891341BDA230D00F090B1 /* JHHomeViewController.m in Sources */,
-				C4F1DC991BE9A27A0041984A /* JHRegisterViewController.m in Sources */,
 				C4F1DD7B1BEAF2D50041984A /* AFHTTPRequestOperationManager.m in Sources */,
 				C4F1DD771BEAF2D50041984A /* NSData+CommonCrypto.m in Sources */,
 				C40891391BDA230D00F090B1 /* UIView+extension.m in Sources */,
+				C45BFFA61BFD6577002600BE /* JHCommonItem.m in Sources */,
 				C408913A1BDA230D00F090B1 /* JHNavigationController.m in Sources */,
+				C46876781BFC4E91007606DE /* JHWalletVC.m in Sources */,
 				C4F1DD7E1BEAF2D50041984A /* AFNetworkReachabilityManager.m in Sources */,
-				C4F1DC9D1BE9A2FB0041984A /* JHChangePasswordViewController.m in Sources */,
+				C45791A01BEB75E5009C297C /* MBProgressHUD.m in Sources */,
+				C46AF8991BF1CEFD00D26C7B /* JHPersonalTableViewController.m in Sources */,
+				C4FC11EC1BEDE10F00E84F17 /* LGAlertViewTextField.m in Sources */,
+				C46CEEA61BFB31A000FB7E17 /* JHPersonal.m in Sources */,
+				C45BFFA01BFD6399002600BE /* JHBaseTableViewController.m in Sources */,
 				C40890DD1BDA21E300F090B1 /* main.m in Sources */,
-				C4F1DD361BE9FA530041984A /* JHResetPasswordViewController.m in Sources */,
 				C4F1DD7D1BEAF2D50041984A /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C4400AAE1BF9714700D125E3 /* JHHeaderView.m in Sources */,
+				C46AF8941BF1CEFD00D26C7B /* JHLoginViewController.m in Sources */,
 				C4F1DD741BEAF2D50041984A /* AESCrypt.m in Sources */,
 				C4F1DD811BEAF2D50041984A /* AFURLRequestSerialization.m in Sources */,
 				C4F1DD791BEAF2D50041984A /* README.md in Sources */,
+				C46AF8901BF1CEFD00D26C7B /* JHChangePasswordViewController.m in Sources */,
+				C4FC11EA1BEDE10F00E84F17 /* LGAlertView.m in Sources */,
 				C408913C1BDA230D00F090B1 /* JHTemp2Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -873,26 +1079,32 @@
 		C40890FB1BDA21E300F090B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JvHua/JvHua.pch";
 				INFOPLIST_FILE = JvHua/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
 		C40890FC1BDA21E300F090B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JvHua/JvHua.pch";
 				INFOPLIST_FILE = JvHua/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

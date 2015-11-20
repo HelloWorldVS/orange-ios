@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="Put-wM-nGL">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="IiV-W7-x11"/>
+                <viewControllerLayoutGuide type="bottom" id="aIZ-YL-hmk"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="pWy-3C-shp" customClass="JHHeaderView">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9X3-va-1S6">
+                        <rect key="frame" x="15" y="10" width="70" height="70"/>
+                        <animations/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmJ-We-0n9">
+                        <rect key="frame" x="102" y="24" width="51" height="18"/>
+                        <animations/>
+                        <state key="normal" title="姓名              "/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMR-ph-hLY">
+                        <rect key="frame" x="229" y="33" width="60" height="30"/>
+                        <animations/>
+                        <state key="normal" title="立即认证"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19U-Vd-sPM">
+                        <rect key="frame" x="161" y="22" width="25" height="22"/>
+                        <animations/>
+                        <state key="normal" title="         " image="icon_personal_code"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DI-yk-ppm" userLabel="手机号">
+                        <rect key="frame" x="100" y="43" width="86" height="20"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="6DI-yk-ppm" firstAttribute="leading" secondItem="9X3-va-1S6" secondAttribute="trailing" constant="10" id="3qM-1o-n3x"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XMR-ph-hLY" secondAttribute="trailing" constant="15" id="5Of-wY-eUO"/>
+                    <constraint firstItem="fmJ-We-0n9" firstAttribute="leading" secondItem="9X3-va-1S6" secondAttribute="trailing" constant="10" id="BW3-L1-hIn"/>
+                    <constraint firstItem="19U-Vd-sPM" firstAttribute="leading" secondItem="fmJ-We-0n9" secondAttribute="trailing" constant="8" id="CXa-nP-tog"/>
+                    <constraint firstItem="aIZ-YL-hmk" firstAttribute="top" secondItem="9X3-va-1S6" secondAttribute="bottom" constant="10" id="HrX-Y5-WRX"/>
+                    <constraint firstItem="aIZ-YL-hmk" firstAttribute="top" secondItem="XMR-ph-hLY" secondAttribute="bottom" constant="27" id="M9j-J8-ag0"/>
+                    <constraint firstItem="19U-Vd-sPM" firstAttribute="height" secondItem="fmJ-We-0n9" secondAttribute="height" id="PPf-hY-a8v"/>
+                    <constraint firstItem="9X3-va-1S6" firstAttribute="top" secondItem="pWy-3C-shp" secondAttribute="top" constant="10" id="UEz-5q-53Z"/>
+                    <constraint firstItem="9X3-va-1S6" firstAttribute="leading" secondItem="pWy-3C-shp" secondAttribute="leading" constant="15" id="YHS-gw-hiE"/>
+                    <constraint firstItem="19U-Vd-sPM" firstAttribute="top" secondItem="IiV-W7-x11" secondAttribute="bottom" constant="24" id="a5D-SR-oFS"/>
+                    <constraint firstItem="fmJ-We-0n9" firstAttribute="top" secondItem="pWy-3C-shp" secondAttribute="topMargin" constant="24" id="eX0-W2-QH3"/>
+                    <constraint firstItem="6DI-yk-ppm" firstAttribute="leading" secondItem="9X3-va-1S6" secondAttribute="trailing" constant="10" id="gI7-TP-iYI"/>
+                    <constraint firstItem="aIZ-YL-hmk" firstAttribute="top" secondItem="6DI-yk-ppm" secondAttribute="bottom" constant="29" id="nfw-XN-Udz"/>
+                </constraints>
+            </view>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <size key="freeformSize" width="320" height="90"/>
+            <point key="canvasLocation" x="464" y="438"/>
+        </viewController>
+        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="07U-YZ-eXS">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <animations/>
+            <point key="canvasLocation" x="422" y="691"/>
+        </imageView>
+    </objects>
+    <resources>
+        <image name="icon_personal_code" width="15" height="14"/>
+    </resources>
+</document>

@@ -22,7 +22,7 @@
     self.title = @"个人中心";
     self.view.backgroundColor = [UIColor whiteColor];
         
-//    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"navigationbar_back_withtext" hltImage:@"navigationbar_back_withtext_highlighted" target:nil action:nil title:@"首页"];
+//    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"navigationbar_back_withtext" hltImage:@"navigationbar_back_withtext_highlighted" target:nil action:nil title:nil];
     
   
            

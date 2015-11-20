@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B462E04D-EEBB-47D6-B807-022BA70BDA32</string>
 	<key>IDESourceControlProjectName</key>
-	<string>JvHua</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>257EACAA629F145FB34BB17C489CB691FA8F1F07</key>
 		<string>git.orange.com:orange-ios/orange-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>JvHua.xcodeproj</string>
+	<string>JvHua.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>257EACAA629F145FB34BB17C489CB691FA8F1F07</key>
