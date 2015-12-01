@@ -1,0 +1,25 @@
+//
+//  juhua.pch
+//  juhua
+//
+//  Created by 乔耐 on 15/10/21.
+//  Copyright (c) 2015年 juzi. All rights reserved.
+//
+
+#ifndef juhua_juhua_pch
+#define juhua_juhua_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+
+#ifndef TARGET_OS_IOS
+#define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
+#ifndef TARGET_OS_WATCH
+#define TARGET_OS_WATCH 0
+#endif
+#endif
