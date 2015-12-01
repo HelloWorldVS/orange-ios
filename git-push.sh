@@ -23,6 +23,7 @@
 done
 
 echo commit...
+git add .
 git commit -m $message
  
 echo push to git.orange.com...
