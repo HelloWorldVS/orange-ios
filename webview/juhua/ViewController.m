@@ -5,6 +5,7 @@
 //  Created by 乔耐 on 15/10/21.
 //  Copyright (c) 2015年 juzi. All rights reserved.
 
+
 #import "ViewController.h"
 #import "Order.h"
 #import "DataSigner.h"
@@ -29,38 +30,54 @@
     
     [super viewDidLoad];
     
+    //#ifdef DEBUG
+    //    // 每次回前台，发送假数据测试能否拿到charge
+    //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(testGetCharge) name:@"applicationDidBecomeActive" object:nil];
+    //#endif
+    
     self.jsExt = [JSExtension sharedInstance];
     self.jsExt.vc = self;
     
     [self.view  setBackgroundColor:[UIColor lightGrayColor]];
-    _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0,0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds))];
+    _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0,20, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 20)];
     
     //http://192.168.0.119/main   http://www.juhuaba.com
     
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.juhuaba.com"]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.0.119/main"]];
     [self.view addSubview: _webView];
     [_webView loadRequest:request];
     [_webView setDelegate:self];
     
-   }
+}
 
--(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
-//    NSString *requestString = [[request URL] absoluteString];//获取请求的绝对路径.
-//    NSArray *components = [requestString componentsSeparatedByString:@":"];//提交请求时候分割参数的分隔符
-//    if ([components count] > 1 && [(NSString *)[components objectAtIndex:0] isEqualToString:@"testapp"]) {
-//        //过滤请求是否是我们需要的.不需要的请求不进入条件
-//        if([(NSString *)[components objectAtIndex:1] isEqualToString:@"alert"])
-//        {
-//            NSString *message = (NSString *)[components objectAtIndex:2];
-//            
-//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"JS向APP提交数据" message:message delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
-//            [alert show];
-//        }
-//        return NO;
-//    }
-//    return YES;
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+
+
+
+
+//// 测试获取charge
+//- (void)testGetCharge
+//{
+//    [MBProgressHUD showMessage:@"测试charge"];
+//
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [MBProgressHUD hideHUD];
+////        [self requestForChargeWithTradeType:@"TRADE_CONSUME" targetID:@"83d11a59-5e29-4bdf-8f98-6f1814c3a9ba" payChannel:@"ALIPAY" payPwd:nil];
+//
+//
+//        [self requestForChargeWithTargetID:@"2015120209116057" tradeType:@"TRADE_CONSUME" payChannel:@"ALIPAY" payPwd:@"nil"];
+//
+//    });
+//
 //}
 
+-(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
+    
+    //注
     NSString *urlString = [[request URL] absoluteString];
     urlString = [urlString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSLog(@"urlString=%@",urlString);
@@ -78,7 +95,7 @@
             if([funcStr isEqualToString:@"doFunc1"])
             {
                 
-                /*调用本地函数1*/
+                // 调用本地函数1
                 NSLog(@"doFunc1");
                 
             }
@@ -88,24 +105,17 @@
             //有参数的
             if([funcStr isEqualToString:@"getParam1:withParam2:"])
             {
-                [self getParam1:[arrFucnameAndParameter objectAtIndex:1] withParam2:[arrFucnameAndParameter objectAtIndex:2]];
             }
         }
         return NO;
     }
+    //注
     return TRUE;
 }
 
 
--(void)getParam1:(NSString*)str1 withParam2:(NSString*)str2
-{
-    NSLog(@"收到html传过来的参数：str1=%@,str2=%@",str1,str2);
-}
-
-
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
-    [_webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"getMessageFromApp('%@')", @"加载结束调用方法"]];
- 
+    
     // get JSContext from UIWebView instance
     JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     
@@ -114,86 +124,64 @@
         NSLog(@"WEB JS: %@", value);
     }];
     
-    context[@"myJSExt"] = self.jsExt;  // 注册给叫myJSExt的js变量，供JS调用
-    
-    // add function for processing form submission
-    NSString *addContactText =
-    @"var appPay = function(type, targetID, payChannel) {" // 给网页添加一个叫addContact()的JS函数
-    "    myJSExt.appPayWithTypeTargetIDPayChannelPayPwd(type, targetID, payChannel, '');"  // JS调用了上面注册的OC变量的实例方法
-    "};";
-
-    [context evaluateScript:addContactText];
+    context[@"appPay"] = ^() {
+        
+        NSArray *args = [JSContext currentArguments];
+        //#ifdef DEBUG
+        //        NSLog(@"Begin Log");
+        //        for (JSValue *jsVal in args) {
+        //            NSLog(@"%@", jsVal);
+        //            // 1.targetID 2. 日期 3.payChannel 4. tradeType
+        //        }
+        //        NSLog(@"-------End Log-------");
+        //#endif
+        // 这样写有危险
+        if (args.count >= 4) {
+            NSString *targetID = [args[1] toString];
+            NSString *payChannel = [args[2] toString];
+            NSString *tradeType = [args[3] toString];
+            //            [self requestForChargeWithTradeType:tradeType targetID:targetID payChannel:payChannel payPwd:nil];
+            [self requestForChargeWithTargetID:targetID tradeType:tradeType payChannel:payChannel payPwd:nil];
+        } else {
+            NSLog(@"invalid payment args");
+            [MBProgressHUD showError:@"订单参数错误，请稍后重试"];
+        }
+    };
 }
 
-/**
- *  js调这个方法
- *  模拟一下这三个参数
- */
-- (void)appPay:(NSString *)type elem1:(NSString *)elem1 elem2:(NSString *)elem2 elem3:(NSString *)elem3{
-    
-    //请求支付 获得charge对象
-    NSString *url = @"http://api.juhuaba.com/api/payment/pay";
-    
-    
-    /**
-     *  用NSmutableURLRequest拼接参数
-        用post方式，传三个参数。
-     */
-    
-    
-//    window.orange.appPay();
-    
-    NSLog(@"%s",__func__);
-    
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.juhuaba.com"]];
-    [_webView loadRequest:request];
-    /**
-     *  OVer
-     */
-}
 
-//[Pingpp createPayment:charge
-//       viewController:viewController
-//         appURLScheme:kUrlScheme
-//       withCompletion:^(NSString *result, PingppError *error) {
-//           if ([result isEqualToString:@"success"]) {
-//               // 支付成功
-//           } else {
-//               // 支付失败或取消
-//               NSLog(@"Error: code=%lu msg=%@", error.code, [error getMsg]);
-//           }
-//       }];
-
-// js 方法名
-//- payCallBack{
-//    
-//}
-
-- (void)requestForCharge
+// 用JS传递的参数向服务器请求charge
+//- (void)requestForChargeWithTradeType:(NSString *)tradeType targetID:(NSString *)targetID payChannel:(NSString *)payChannel payPwd:(NSString *)payPwd
+- (void)requestForChargeWithTargetID:(NSString *)targetID tradeType:(NSString *)tradeType payChannel:(NSString *)payChannel payPwd:(NSString *)payPwd
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    params[@"tradeType"] = self.jsExt.type ? : @"";
-    params[@"targetId"] = self.jsExt.targetID ? : @"";
-    params[@"payChannel"] = self.jsExt.payChannel ? : @"";
-    params[@"payPwd"] = self.jsExt.payPwd ? : @"";
     
+    [ manager.requestSerializer setValue:xx forHTTPHeaderField:xx];
+    
+    params[@"tradeType"] = tradeType ? : @"";
+    params[@"targetId"] = targetID ? : @"";
+    params[@"payChannel"] = payChannel ? : @"";
+    params[@"payPwd"] = payPwd ? : @"";
+    
+    NSLog(@"88888888888888888888888888888");
     
     UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     indicator.center = self.view.center;
     [self.view addSubview:indicator];
     
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    
+    
     [manager POST:@"http://api.juhuaba.com/api/payment/pay" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [indicator stopAnimating];
         NSLog(@"JSON: %@", responseObject);
         if (operation.response.statusCode == 200) {
-            
-             NSLog(@"__func__");
-            
+            // 拿到charge,主线程调ping++
             dispatch_async(dispatch_get_main_queue(), ^{
                 [Pingpp createPayment:responseObject
                        viewController:self
-                         appURLScheme:@"juhuaDevelop"
+                         appURLScheme:@"wx22934c6eed622aac"
                        withCompletion:^(NSString *result, PingppError *error) {
                            [self handlePaymentResult:result error:error];
                        }];
@@ -202,12 +190,25 @@
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         [indicator stopAnimating];
-        NSLog(@"Error: %@", error);
-        [MBProgressHUD showError:@"网络请求失败"];
+        
+        NSDictionary *responseDict = operation.responseObject;
+        if ([responseDict isKindOfClass:[NSDictionary class]]) {
+            NSString *msg = responseDict[@"message"];
+            if (msg.length) {
+                [MBProgressHUD showError:msg];
+            } else {
+                [MBProgressHUD showError:@"网络请求失败"];
+            }
+        } else {
+            NSLog(@"Error: %@", error);
+            [MBProgressHUD showError:@"网络请求失败"];
+        }
     }];
     [indicator startAnimating];
 }
 
+
+// 处理ping++支付结果，通过JS返回给网页
 - (void)handlePaymentResult:(NSString *)result error:(PingppError *)error
 {
     if ([result isEqualToString:@"success"]) {

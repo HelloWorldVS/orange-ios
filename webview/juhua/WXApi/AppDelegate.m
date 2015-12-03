@@ -11,6 +11,7 @@
 #import "WXApi.h"
 #import "Pingpp.h"
 #import "ViewController.h"
+#import "JHNewFeatureViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,13 +23,13 @@
 //            openURL:(NSURL *)url
 //  sourceApplication:(NSString *)sourceApplication
 //         annotation:(id)annotation {
-//    
+//
 //    //跳转支付宝钱包进行支付，处理支付结果
 //    [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
 //        NSLog(@"result = %@",resultDic);
 //        //
 //    }];
-//    
+//
 //    return YES;
 //}
 
@@ -47,6 +48,43 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //1初始化一个window
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //     JHTabBarController *tabbarCtrl = [[JHTabBarController alloc] init];
+    
+    //2设置根控制器
+    NSLog(@"%@",[NSBundle mainBundle].infoDictionary);
+    
+    CGFloat currentVersion = [JHUtils appVersion];
+    
+    
+    //2.1判断本地是否有保存过版本号
+    CGFloat saveVersion = [[NSUserDefaults standardUserDefaults] doubleForKey:KEY_VERSION];
+    
+    if (saveVersion==0) {
+        //直接进入新特性页
+        [self.window setRootViewController:[JHNewFeatureViewController new]];
+    }else{
+        //进行版本号对比
+        if (currentVersion>saveVersion) {
+            //直接进入新特性页
+            [self.window setRootViewController:[JHNewFeatureViewController new]];
+        }else{
+            ViewController *tabbarCtrl = [[ViewController alloc] init];
+            //设置根控制器
+            [self.window setRootViewController:tabbarCtrl];
+        }
+    }
+    
+    //3让window显示出来
+    [self.window makeKeyAndVisible];
+    
+
+    
+    
     return YES;
 }
 
@@ -66,6 +104,9 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+#ifdef DEBUG
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"applicationDidBecomeActive" object:nil];
+#endif
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

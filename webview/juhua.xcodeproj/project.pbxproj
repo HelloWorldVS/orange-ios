@@ -20,6 +20,9 @@
 		001FB2411C0D5F95001891A7 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 001FB23D1C0D5F95001891A7 /* MBProgressHUD+MJ.m */; };
 		001FB2421C0D5F95001891A7 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 001FB23E1C0D5F95001891A7 /* MBProgressHUD.bundle */; };
 		001FB2431C0D5F95001891A7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 001FB2401C0D5F95001891A7 /* MBProgressHUD.m */; };
+		C41E17691C0F08BC00459F46 /* JHNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E17681C0F08BC00459F46 /* JHNewFeatureViewController.m */; };
+		C41E176C1C0F09BA00459F46 /* JHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E176B1C0F09BA00459F46 /* JHUtils.m */; };
+		C41E176F1C0F0BA700459F46 /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E176E1C0F0BA700459F46 /* UIView+extension.m */; };
 		C4269A351BD79A9D00F62A62 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4269A341BD79A9D00F62A62 /* libc++.dylib */; };
 		C4269A371BD79B2900F62A62 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4269A361BD79B2900F62A62 /* libsqlite3.dylib */; };
 		C47A8A8A1C0D77AC0094ADBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A8A871C0D77AC0094ADBA /* AppDelegate.m */; };
@@ -100,6 +103,12 @@
 		001FB23E1C0D5F95001891A7 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		001FB23F1C0D5F95001891A7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		001FB2401C0D5F95001891A7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C41E17671C0F08BC00459F46 /* JHNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNewFeatureViewController.h; sourceTree = "<group>"; };
+		C41E17681C0F08BC00459F46 /* JHNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNewFeatureViewController.m; sourceTree = "<group>"; };
+		C41E176A1C0F09BA00459F46 /* JHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUtils.h; sourceTree = "<group>"; };
+		C41E176B1C0F09BA00459F46 /* JHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUtils.m; sourceTree = "<group>"; };
+		C41E176D1C0F0BA700459F46 /* UIView+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extension.h"; sourceTree = "<group>"; };
+		C41E176E1C0F0BA700459F46 /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
 		C4269A341BD79A9D00F62A62 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		C4269A361BD79B2900F62A62 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C47A8A861C0D77AC0094ADBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WXApi/AppDelegate.h; sourceTree = "<group>"; };
@@ -316,6 +325,23 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		C41E17651C0F08BC00459F46 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				C41E17661C0F08BC00459F46 /* Controller */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		C41E17661C0F08BC00459F46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C41E17671C0F08BC00459F46 /* JHNewFeatureViewController.h */,
+				C41E17681C0F08BC00459F46 /* JHNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C4D03B7D1BD727660008ED73 = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +373,7 @@
 		C4D03B881BD727660008ED73 /* juhua */ = {
 			isa = PBXGroup;
 			children = (
+				C41E17651C0F08BC00459F46 /* NewFeature */,
 				001FB23B1C0D5F95001891A7 /* MBProgressHUD */,
 				001FB21E1C0D5D91001891A7 /* AFNetworking */,
 				C4D03C371BD735660008ED73 /* lib */,
@@ -359,6 +386,10 @@
 				C4D03B931BD727660008ED73 /* Main.storyboard */,
 				C4D03B961BD727660008ED73 /* Images.xcassets */,
 				C4D03B981BD727660008ED73 /* LaunchScreen.xib */,
+				C41E176A1C0F09BA00459F46 /* JHUtils.h */,
+				C41E176B1C0F09BA00459F46 /* JHUtils.m */,
+				C41E176D1C0F0BA700459F46 /* UIView+extension.h */,
+				C41E176E1C0F0BA700459F46 /* UIView+extension.m */,
 				C4D03B891BD727660008ED73 /* Supporting Files */,
 				001FB21B1C0D588B001891A7 /* JSExtension.h */,
 				001FB21C1C0D588B001891A7 /* JSExtension.m */,
@@ -678,6 +709,7 @@
 				C47A8A8A1C0D77AC0094ADBA /* AppDelegate.m in Sources */,
 				C4D03C1D1BD72EEC0008ED73 /* base64.m in Sources */,
 				001FB21D1C0D588B001891A7 /* JSExtension.m in Sources */,
+				C41E17691C0F08BC00459F46 /* JHNewFeatureViewController.m in Sources */,
 				001FB2331C0D5D91001891A7 /* AFHTTPRequestOperationManager.m in Sources */,
 				001FB2371C0D5D91001891A7 /* AFURLConnectionOperation.m in Sources */,
 				C4D03C211BD72EEC0008ED73 /* NSDataEx.m in Sources */,
@@ -689,7 +721,9 @@
 				001FB2321C0D5D91001891A7 /* AFHTTPRequestOperation.m in Sources */,
 				001FB2361C0D5D91001891A7 /* AFSecurityPolicy.m in Sources */,
 				C4D03C1E1BD72EEC0008ED73 /* DataSigner.m in Sources */,
+				C41E176C1C0F09BA00459F46 /* JHUtils.m in Sources */,
 				001FB2351C0D5D91001891A7 /* AFNetworkReachabilityManager.m in Sources */,
+				C41E176F1C0F0BA700459F46 /* UIView+extension.m in Sources */,
 				001FB23A1C0D5D91001891A7 /* AFURLSessionManager.m in Sources */,
 				C4D03C231BD72EEC0008ED73 /* RSADataSigner.m in Sources */,
 				C4D03C221BD72EEC0008ED73 /* openssl_wrapper.m in Sources */,
@@ -824,6 +858,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/juhua/aliPay",
@@ -854,7 +889,7 @@
 					"$(PROJECT_DIR)/juhua/lib/Channels/Wx",
 					"$(PROJECT_DIR)/juhua/lib",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -863,6 +898,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/juhua/aliPay",
@@ -893,7 +929,7 @@
 					"$(PROJECT_DIR)/juhua/lib/Channels/Wx",
 					"$(PROJECT_DIR)/juhua/lib",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

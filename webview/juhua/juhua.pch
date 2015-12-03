@@ -14,6 +14,14 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "JHUtils.h"
+#import "UIView+extension.h"
+
+//屏幕宽度
+#define SCREENW [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define SCREENH [UIScreen mainScreen].bounds.size.height
+
 
 
 #ifndef TARGET_OS_IOS
@@ -23,3 +31,5 @@
 #define TARGET_OS_WATCH 0
 #endif
 #endif
+//版本号保存的key
+#define KEY_VERSION @"CFBundleShortVersionString"

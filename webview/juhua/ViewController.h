@@ -12,11 +12,9 @@
 
 @interface ViewController : UIViewController<UIWebViewDelegate>{
     UIActivityIndicatorView *activityIndicator;
-    }
+}
 
 @property (nonatomic, strong) UIWebView *webView;
-
-- (void)requestForCharge;
 
 - (void)handlePaymentResult:(NSString *)result error:(PingppError *)error;
 

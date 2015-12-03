@@ -18,7 +18,7 @@
     self.payChannel = payChannel;
     self.payPwd = payPwd;
     
-    [self.vc requestForCharge];
+    //    [self.vc requestForCharge];
 }
 
 id _sharedInstance = nil;

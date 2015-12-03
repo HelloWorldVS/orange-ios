@@ -75,8 +75,6 @@
 		C47B67F01C0460D6003BB8C8 /* JHTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B67EF1C0460D6003BB8C8 /* JHTabBarButton.m */; };
 		C47B67F41C0466FB003BB8C8 /* JHMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B67F21C0466FB003BB8C8 /* JHMyController.m */; };
 		C47B67F51C0466FB003BB8C8 /* JHMyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47B67F31C0466FB003BB8C8 /* JHMyController.xib */; };
-		C47B67FB1C04688B003BB8C8 /* JHWalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B67FA1C04688B003BB8C8 /* JHWalletVC.m */; };
-		C47B67FE1C04689B003BB8C8 /* JHSellingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B67FD1C04689B003BB8C8 /* JHSellingVC.m */; };
 		C47B68011C047258003BB8C8 /* JHHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B68001C047258003BB8C8 /* JHHomeController.m */; };
 		C47B68041C047B83003BB8C8 /* UIImage+DK.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B68031C047B83003BB8C8 /* UIImage+DK.m */; };
 		C49A4D7F1C059E4700C55834 /* JHAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D7D1C059E4700C55834 /* JHAccountViewController.m */; };
@@ -87,6 +85,8 @@
 		C49A4D8B1C059EF200C55834 /* JHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D8A1C059EF200C55834 /* JHAboutViewController.m */; };
 		C49A4D8F1C059F1600C55834 /* JHInviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D8D1C059F1600C55834 /* JHInviteViewController.m */; };
 		C49A4D901C059F1600C55834 /* JHInviteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49A4D8E1C059F1600C55834 /* JHInviteViewController.xib */; };
+		C4E70CF81C0DB73100131144 /* JHSellingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E70CF71C0DB73100131144 /* JHSellingVC.m */; };
+		C4E70CFB1C0DB73E00131144 /* JHWalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E70CFA1C0DB73E00131144 /* JHWalletVC.m */; };
 		C4F0DD761BE84BC70051A24A /* JHHomeTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */; };
 		C4F1DD4E1BEAF1820041984A /* MyMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD4D1BEAF1820041984A /* MyMD5.m */; };
 		C4F1DD731BEAF2D50041984A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C4F1DD501BEAF2D50041984A /* .gitignore */; };
@@ -244,10 +244,6 @@
 		C47B67F11C0466FB003BB8C8 /* JHMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHMyController.h; path = JvHua/Classes/Public/Controller/JHMyController.h; sourceTree = SOURCE_ROOT; };
 		C47B67F21C0466FB003BB8C8 /* JHMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHMyController.m; path = JvHua/Classes/Public/Controller/JHMyController.m; sourceTree = SOURCE_ROOT; };
 		C47B67F31C0466FB003BB8C8 /* JHMyController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JHMyController.xib; path = JvHua/Classes/Public/Controller/JHMyController.xib; sourceTree = SOURCE_ROOT; };
-		C47B67F91C04688B003BB8C8 /* JHWalletVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHWalletVC.h; path = "../../../../../../../Volumes/常用备份/工作内容/orange-ios/JvHua/Classes/JHWalletVC.h"; sourceTree = "<group>"; };
-		C47B67FA1C04688B003BB8C8 /* JHWalletVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHWalletVC.m; path = "../../../../../../../Volumes/常用备份/工作内容/orange-ios/JvHua/Classes/JHWalletVC.m"; sourceTree = "<group>"; };
-		C47B67FC1C04689B003BB8C8 /* JHSellingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHSellingVC.h; path = "../../../../../../../Volumes/常用备份/工作内容/orange-ios/JvHua/Classes/JHSellingVC.h"; sourceTree = "<group>"; };
-		C47B67FD1C04689B003BB8C8 /* JHSellingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHSellingVC.m; path = "../../../../../../../Volumes/常用备份/工作内容/orange-ios/JvHua/Classes/JHSellingVC.m"; sourceTree = "<group>"; };
 		C47B67FF1C047258003BB8C8 /* JHHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHomeController.h; sourceTree = "<group>"; };
 		C47B68001C047258003BB8C8 /* JHHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHomeController.m; sourceTree = "<group>"; };
 		C47B68021C047B83003BB8C8 /* UIImage+DK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DK.h"; sourceTree = "<group>"; };
@@ -265,6 +261,10 @@
 		C49A4D8C1C059F1600C55834 /* JHInviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInviteViewController.h; sourceTree = "<group>"; };
 		C49A4D8D1C059F1600C55834 /* JHInviteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHInviteViewController.m; sourceTree = "<group>"; };
 		C49A4D8E1C059F1600C55834 /* JHInviteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHInviteViewController.xib; sourceTree = "<group>"; };
+		C4E70CF61C0DB73100131144 /* JHSellingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHSellingVC.h; path = JvHua/Classes/JHSellingVC.h; sourceTree = SOURCE_ROOT; };
+		C4E70CF71C0DB73100131144 /* JHSellingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHSellingVC.m; path = JvHua/Classes/JHSellingVC.m; sourceTree = SOURCE_ROOT; };
+		C4E70CF91C0DB73E00131144 /* JHWalletVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHWalletVC.h; path = JvHua/Classes/JHWalletVC.h; sourceTree = SOURCE_ROOT; };
+		C4E70CFA1C0DB73E00131144 /* JHWalletVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHWalletVC.m; path = JvHua/Classes/JHWalletVC.m; sourceTree = SOURCE_ROOT; };
 		C4F0DD741BE84BC70051A24A /* JHHomeTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHomeTitleButton.h; sourceTree = "<group>"; };
 		C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHomeTitleButton.m; sourceTree = "<group>"; };
 		C4F1DD4C1BEAF1820041984A /* MyMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMD5.h; sourceTree = "<group>"; };
@@ -592,8 +592,8 @@
 		C40891271BDA230D00F090B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C47B67FC1C04689B003BB8C8 /* JHSellingVC.h */,
-				C47B67FD1C04689B003BB8C8 /* JHSellingVC.m */,
+				C4E70CF61C0DB73100131144 /* JHSellingVC.h */,
+				C4E70CF71C0DB73100131144 /* JHSellingVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -658,8 +658,8 @@
 		C40891311BDA230D00F090B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C47B67F91C04688B003BB8C8 /* JHWalletVC.h */,
-				C47B67FA1C04688B003BB8C8 /* JHWalletVC.m */,
+				C4E70CF91C0DB73E00131144 /* JHWalletVC.h */,
+				C4E70CFA1C0DB73E00131144 /* JHWalletVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1104,6 +1104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C468767D1BFC5F5D007606DE /* JHHomeTitleButton.h in Sources */,
+				C4E70CFB1C0DB73E00131144 /* JHWalletVC.m in Sources */,
 				C47B67CB1C03FD80003BB8C8 /* SDWebImageManager.m in Sources */,
 				C47B67F41C0466FB003BB8C8 /* JHMyController.m in Sources */,
 				C46876711BFC1ADF007606DE /* LGAlertView.h in Sources */,
@@ -1119,7 +1120,6 @@
 				C4F1DD7F1BEAF2D50041984A /* AFSecurityPolicy.m in Sources */,
 				C4F1DD761BEAF2D50041984A /* NSData+Base64.m in Sources */,
 				C4F1DD841BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				C47B67FE1C04689B003BB8C8 /* JHSellingVC.m in Sources */,
 				C4F1DD7A1BEAF2D50041984A /* AFHTTPRequestOperation.m in Sources */,
 				C40891371BDA230D00F090B1 /* JHNewFeatureViewController.m in Sources */,
 				C47B67CE1C03FD80003BB8C8 /* UIImage+GIF.m in Sources */,
@@ -1157,7 +1157,6 @@
 				C49A4D881C059EC800C55834 /* JHUpdateViewController.m in Sources */,
 				C4F1DD771BEAF2D50041984A /* NSData+CommonCrypto.m in Sources */,
 				C40891391BDA230D00F090B1 /* UIView+extension.m in Sources */,
-				C47B67FB1C04688B003BB8C8 /* JHWalletVC.m in Sources */,
 				C408913A1BDA230D00F090B1 /* JHNavigationController.m in Sources */,
 				C47B67C71C03FD80003BB8C8 /* SDWebImageCompat.m in Sources */,
 				C47B67A11C03F979003BB8C8 /* JHUtilTool.m in Sources */,
@@ -1168,6 +1167,7 @@
 				C45791A01BEB75E5009C297C /* MBProgressHUD.m in Sources */,
 				C47B67C81C03FD80003BB8C8 /* SDWebImageDecoder.m in Sources */,
 				C47B67D31C03FD80003BB8C8 /* UIView+WebCacheOperation.m in Sources */,
+				C4E70CF81C0DB73100131144 /* JHSellingVC.m in Sources */,
 				C45280551C08350400245653 /* JHGroup.m in Sources */,
 				C4FC11EC1BEDE10F00E84F17 /* LGAlertViewTextField.m in Sources */,
 				C40890DD1BDA21E300F090B1 /* main.m in Sources */,
