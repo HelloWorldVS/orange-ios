@@ -39,11 +39,11 @@
     self.jsExt.vc = self;
     
     [self.view  setBackgroundColor:[UIColor lightGrayColor]];
-    _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0,20, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 20)];
+    _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0,20, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds)- 20)];
     
     //http://192.168.0.119/main   http://www.juhuaba.com
     
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.0.119/main"]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.juhuaba.com"]];
     [self.view addSubview: _webView];
     [_webView loadRequest:request];
     [_webView setDelegate:self];
@@ -59,17 +59,16 @@
 
 
 
-//// 测试获取charge
+// 测试获取charge
 //- (void)testGetCharge
 //{
-//    [MBProgressHUD showMessage:@"测试charge"];
+////    [MBProgressHUD showMessage:@"测试charge"];
 //
 //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //        [MBProgressHUD hideHUD];
-////        [self requestForChargeWithTradeType:@"TRADE_CONSUME" targetID:@"83d11a59-5e29-4bdf-8f98-6f1814c3a9ba" payChannel:@"ALIPAY" payPwd:nil];
 //
-//
-//        [self requestForChargeWithTargetID:@"2015120209116057" tradeType:@"TRADE_CONSUME" payChannel:@"ALIPAY" payPwd:@"nil"];
+//        [self requestForChargeWithToken:@"token" targetID:@"targetID" tradeType:@"TRADE_CONSUME" payChannel:@"ALIPAY" payPwd:@"nil"];
+////        [self requestForChargeWithTargetID:@"2015120209116057" tradeType:@"TRADE_CONSUME" payChannel:@"ALIPAY" payPwd:@"nil"];
 //
 //    });
 //
@@ -127,21 +126,22 @@
     context[@"appPay"] = ^() {
         
         NSArray *args = [JSContext currentArguments];
-        //#ifdef DEBUG
-        //        NSLog(@"Begin Log");
-        //        for (JSValue *jsVal in args) {
-        //            NSLog(@"%@", jsVal);
-        //            // 1.targetID 2. 日期 3.payChannel 4. tradeType
-        //        }
-        //        NSLog(@"-------End Log-------");
-        //#endif
-        // 这样写有危险
+#ifdef DEBUG
+        NSLog(@"Begin Log");
+        for (JSValue *jsVal in args) {
+            NSLog(@"%@", jsVal);
+            // 1.targetID 2. 日期 3.payChannel 4. tradeType
+        }
+        NSLog(@"-------End Log-------");
+#endif
+        // 这样写有...
         if (args.count >= 4) {
+            NSString *token = [args[0] toString];
             NSString *targetID = [args[1] toString];
             NSString *payChannel = [args[2] toString];
             NSString *tradeType = [args[3] toString];
             //            [self requestForChargeWithTradeType:tradeType targetID:targetID payChannel:payChannel payPwd:nil];
-            [self requestForChargeWithTargetID:targetID tradeType:tradeType payChannel:payChannel payPwd:nil];
+            [self requestForChargeWithToken:token targetID:targetID tradeType:tradeType payChannel:payChannel payPwd:nil];
         } else {
             NSLog(@"invalid payment args");
             [MBProgressHUD showError:@"订单参数错误，请稍后重试"];
@@ -152,27 +152,23 @@
 
 // 用JS传递的参数向服务器请求charge
 //- (void)requestForChargeWithTradeType:(NSString *)tradeType targetID:(NSString *)targetID payChannel:(NSString *)payChannel payPwd:(NSString *)payPwd
-- (void)requestForChargeWithTargetID:(NSString *)targetID tradeType:(NSString *)tradeType payChannel:(NSString *)payChannel payPwd:(NSString *)payPwd
+- (void)requestForChargeWithToken:(NSString *)token targetID:(NSString *)targetID tradeType:(NSString *)tradeType payChannel:(NSString *)payChannel payPwd:(NSString *)payPwd
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    
-    [ manager.requestSerializer setValue:xx forHTTPHeaderField:xx];
     
     params[@"tradeType"] = tradeType ? : @"";
     params[@"targetId"] = targetID ? : @"";
     params[@"payChannel"] = payChannel ? : @"";
     params[@"payPwd"] = payPwd ? : @"";
     
-    NSLog(@"88888888888888888888888888888");
+    [ manager.requestSerializer setValue:@"token" forHTTPHeaderField:@"x-auth-token"];
     
     UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     indicator.center = self.view.center;
     [self.view addSubview:indicator];
     
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
-    
-    
     [manager POST:@"http://api.juhuaba.com/api/payment/pay" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [indicator stopAnimating];
         NSLog(@"JSON: %@", responseObject);

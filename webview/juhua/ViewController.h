@@ -18,5 +18,7 @@
 
 - (void)handlePaymentResult:(NSString *)result error:(PingppError *)error;
 
+
+
 @end
 
