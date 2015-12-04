@@ -22,7 +22,7 @@
      esac
 done
 
-$message
+echo commit...
 git add .
 git commit -m $message
  
