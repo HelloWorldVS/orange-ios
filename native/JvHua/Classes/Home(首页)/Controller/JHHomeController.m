@@ -10,7 +10,7 @@
 #import "UIBarButtonItem+Extension.h"
 #import "JHTemp2Controller.h"
 #import "JHHomeTitleButton.h"
-
+#import "JHMyController.h"
 
 @interface JHHomeController ()
 
@@ -50,8 +50,12 @@
 
 - (void)friendsearch:(UIButton *)btn{
     NSLog(@"%s",__func__);
-    JHTemp2Controller *PVC = [[JHTemp2Controller alloc] init];
-    [self.navigationController pushViewController:PVC animated:YES];
+    JHMyController *Mvc = [[JHMyController alloc] init];
+    [self.navigationController pushViewController:Mvc animated:YES];
+//    JHTemp2Controller *PVC = [[JHTemp2Controller alloc] init];
+//    [self.navigationController pushViewController:PVC animated:YES];
+    
+    
 }
 
 - (void)pop:(UIButton *)btn{

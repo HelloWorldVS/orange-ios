@@ -119,6 +119,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Login_button" width="114" height="38"/>
+        <image name="Login_button" width="300" height="42"/>
     </resources>
 </document>
