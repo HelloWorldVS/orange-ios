@@ -21,7 +21,20 @@
    self.navigationController.title = @"个人中心";
     
     [self setNav];
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 #pragma mark - 导航控制器
 

@@ -17,7 +17,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8r-TC-AnJ">
-                    <rect key="frame" x="27" y="343" width="266" height="30"/>
+                    <rect key="frame" x="27" y="344" width="266" height="30"/>
                     <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="19"/>
                     <state key="normal" title="提交" backgroundImage="Login_button">

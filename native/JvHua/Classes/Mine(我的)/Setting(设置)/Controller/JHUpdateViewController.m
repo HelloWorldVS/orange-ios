@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    UIAlertView * alert = [[UIAlertView alloc] initWithTitle:nil message:@"已经是最新版本了!" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定", nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {

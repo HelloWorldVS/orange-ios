@@ -7,21 +7,21 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1D46502A-470F-4A35-8EFF-C92228774DAC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>juhua</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>257EACAA629F145FB34BB17C489CB691FA8F1F07</key>
-		<string>git.orange.com:orange-ios/orange-ios.git</string>
+		<string>github.com:HelloWorldVS/orange-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>juhua/juhua.xcodeproj</string>
+	<string>webview/juhua.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>257EACAA629F145FB34BB17C489CB691FA8F1F07</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>git.orange.com:orange-ios/orange-ios.git</string>
+	<string>github.com:HelloWorldVS/orange-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>257EACAA629F145FB34BB17C489CB691FA8F1F07</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Code</string>
+			<string>orange-ios</string>
 		</dict>
 	</array>
 </dict>
