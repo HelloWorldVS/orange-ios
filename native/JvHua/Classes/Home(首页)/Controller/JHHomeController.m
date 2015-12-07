@@ -34,7 +34,7 @@
     CGFloat w = self.view.bounds.size.width;
     
     // 本地加载 --- 创建不带标题的图片轮播器
-    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, w, 120) imagesGroup:images];
+    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, w, 140) imagesGroup:images];
     
     cycleScrollView.infiniteLoop = YES;
     cycleScrollView.delegate = self;

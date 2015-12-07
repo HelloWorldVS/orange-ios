@@ -612,9 +612,7 @@
 		C40891051BDA230D00F090B1 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				C45D07D01C155D6D005BF307 /* h1.jpg */,
-				C45D07D11C155D6D005BF307 /* h2.jpg */,
-				C45D07D21C155D6D005BF307 /* h3.jpg */,
+				C45D07D61C156A39005BF307 /* image */,
 				C40891061BDA230D00F090B1 /* Controller */,
 				C40891091BDA230D00F090B1 /* Model */,
 				C408910A1BDA230D00F090B1 /* View */,
@@ -922,6 +920,16 @@
 				C45D07C21C155D3B005BF307 /* TAPageControl.m */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		C45D07D61C156A39005BF307 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C45D07D01C155D6D005BF307 /* h1.jpg */,
+				C45D07D11C155D6D005BF307 /* h2.jpg */,
+				C45D07D21C155D6D005BF307 /* h3.jpg */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 		C46AF8741BF1CEFD00D26C7B /* Login(登陆) */ = {
