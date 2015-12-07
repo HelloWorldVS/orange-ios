@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "JHTabBarController.h"
 #import "JHNewFeatureViewController.h"
-
+#import "JHHomeController.h"
 
 
 

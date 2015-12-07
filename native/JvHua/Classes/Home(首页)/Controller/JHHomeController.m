@@ -11,8 +11,9 @@
 #import "JHTemp2Controller.h"
 #import "JHHomeTitleButton.h"
 #import "JHMyController.h"
+#import "SDCycleScrollView.h"
 
-@interface JHHomeController ()
+@interface JHHomeController ()<SDCycleScrollViewDelegate>
 
 @property (nonatomic,weak) JHHomeTitleButton *titleBtn;
 
@@ -23,7 +24,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor blueColor];
+   // 采用本地图片实现
+    NSArray *images = @[[UIImage imageNamed:@"h1.jpg"],
+                        [UIImage imageNamed:@"h2.jpg"],
+                        [UIImage imageNamed:@"h3.jpg"]
+                        ];
+
+    
+    CGFloat w = self.view.bounds.size.width;
+    
+    // 本地加载 --- 创建不带标题的图片轮播器
+    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, w, 120) imagesGroup:images];
+    
+    cycleScrollView.infiniteLoop = YES;
+    cycleScrollView.delegate = self;
+    cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleAnimated;
+    [self.view addSubview:cycleScrollView];
+    //         --- 轮播时间间隔，默认1.0秒，可自定义
+    //cycleScrollView.autoScrollTimeInterval = 4.0;
+
+    
+    
     
     [self setNav];
 }
@@ -60,6 +81,14 @@
 
 - (void)pop:(UIButton *)btn{
     NSLog(@"%s",__func__);
+}
+
+
+#pragma mark - SDCycleScrollViewDelegate
+
+- (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
+{
+    NSLog(@"---点击了第%ld张图片", (long)index);
 }
 
 @end

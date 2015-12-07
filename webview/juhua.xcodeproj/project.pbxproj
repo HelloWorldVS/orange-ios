@@ -25,6 +25,9 @@
 		C41E176F1C0F0BA700459F46 /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E176E1C0F0BA700459F46 /* UIView+extension.m */; };
 		C4269A351BD79A9D00F62A62 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4269A341BD79A9D00F62A62 /* libc++.dylib */; };
 		C4269A371BD79B2900F62A62 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4269A361BD79B2900F62A62 /* libsqlite3.dylib */; };
+		C45D07B41C1552B2005BF307 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D07B31C1552B2005BF307 /* libz.1.dylib */; };
+		C45D07B61C155303005BF307 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D07B51C155303005BF307 /* libsqlite3.dylib */; };
+		C45D07B81C15534D005BF307 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D07B71C15534D005BF307 /* libc++.1.dylib */; };
 		C47A8A8A1C0D77AC0094ADBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A8A871C0D77AC0094ADBA /* AppDelegate.m */; };
 		C47A8A8E1C0D89AC0094ADBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47A8A8D1C0D89AC0094ADBA /* ViewController.m */; };
 		C4921C761C02C84F0001D90D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4921C751C02C84F0001D90D /* JavaScriptCore.framework */; };
@@ -111,6 +114,9 @@
 		C41E176E1C0F0BA700459F46 /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
 		C4269A341BD79A9D00F62A62 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		C4269A361BD79B2900F62A62 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C45D07B31C1552B2005BF307 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		C45D07B51C155303005BF307 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		C45D07B71C15534D005BF307 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
 		C47A8A861C0D77AC0094ADBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WXApi/AppDelegate.h; sourceTree = "<group>"; };
 		C47A8A871C0D77AC0094ADBA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WXApi/AppDelegate.m; sourceTree = "<group>"; };
 		C47A8A8C1C0D89AC0094ADBA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -254,6 +260,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45D07B81C15534D005BF307 /* libc++.1.dylib in Frameworks */,
+				C45D07B41C1552B2005BF307 /* libz.1.dylib in Frameworks */,
+				C45D07B61C155303005BF307 /* libsqlite3.dylib in Frameworks */,
 				C4921C761C02C84F0001D90D /* JavaScriptCore.framework in Frameworks */,
 				C4269A351BD79A9D00F62A62 /* libc++.dylib in Frameworks */,
 				C4D03C301BD7339E0008ED73 /* libz.dylib in Frameworks */,
@@ -345,6 +354,9 @@
 		C4D03B7D1BD727660008ED73 = {
 			isa = PBXGroup;
 			children = (
+				C45D07B71C15534D005BF307 /* libc++.1.dylib */,
+				C45D07B51C155303005BF307 /* libsqlite3.dylib */,
+				C45D07B31C1552B2005BF307 /* libz.1.dylib */,
 				C4921C751C02C84F0001D90D /* JavaScriptCore.framework */,
 				C4269A361BD79B2900F62A62 /* libsqlite3.dylib */,
 				C4269A341BD79A9D00F62A62 /* libc++.dylib */,
