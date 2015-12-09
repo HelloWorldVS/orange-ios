@@ -43,7 +43,7 @@
     
     //http://192.168.0.119/main   http://www.juhuaba.com
     
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.juhuaba.com"]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.juhuaba.com?plantform=ios"]];
     [self.view addSubview: _webView];
     [_webView loadRequest:request];
     [_webView setDelegate:self];
