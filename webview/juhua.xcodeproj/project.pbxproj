@@ -23,8 +23,6 @@
 		C41E17691C0F08BC00459F46 /* JHNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E17681C0F08BC00459F46 /* JHNewFeatureViewController.m */; };
 		C41E176C1C0F09BA00459F46 /* JHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E176B1C0F09BA00459F46 /* JHUtils.m */; };
 		C41E176F1C0F0BA700459F46 /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E176E1C0F0BA700459F46 /* UIView+extension.m */; };
-		C4269A351BD79A9D00F62A62 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4269A341BD79A9D00F62A62 /* libc++.dylib */; };
-		C4269A371BD79B2900F62A62 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4269A361BD79B2900F62A62 /* libsqlite3.dylib */; };
 		C45D07B41C1552B2005BF307 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D07B31C1552B2005BF307 /* libz.1.dylib */; };
 		C45D07B61C155303005BF307 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D07B51C155303005BF307 /* libsqlite3.dylib */; };
 		C45D07B81C15534D005BF307 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D07B71C15534D005BF307 /* libc++.1.dylib */; };
@@ -54,7 +52,6 @@
 		C4D03C2A1BD72F050008ED73 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D03C261BD72F050008ED73 /* libWeChatSDK.a */; };
 		C4D03C2B1BD72F050008ED73 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4D03C271BD72F050008ED73 /* read_me.txt */; };
 		C4D03C2E1BD7336F0008ED73 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D03C2D1BD7336F0008ED73 /* CoreText.framework */; };
-		C4D03C301BD7339E0008ED73 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D03C2F1BD7339E0008ED73 /* libz.dylib */; };
 		C4D03C321BD733B70008ED73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D03C311BD733B70008ED73 /* QuartzCore.framework */; };
 		C4D03C341BD733C90008ED73 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D03C331BD733C90008ED73 /* CoreTelephony.framework */; };
 		C4D03C361BD733D90008ED73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D03C351BD733D90008ED73 /* SystemConfiguration.framework */; };
@@ -112,8 +109,6 @@
 		C41E176B1C0F09BA00459F46 /* JHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUtils.m; sourceTree = "<group>"; };
 		C41E176D1C0F0BA700459F46 /* UIView+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extension.h"; sourceTree = "<group>"; };
 		C41E176E1C0F0BA700459F46 /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
-		C4269A341BD79A9D00F62A62 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		C4269A361BD79B2900F62A62 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C45D07B31C1552B2005BF307 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		C45D07B51C155303005BF307 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		C45D07B71C15534D005BF307 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
@@ -237,7 +232,6 @@
 		C4D03C291BD72F050008ED73 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		C4D03C2C1BD731A30008ED73 /* juhua.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = juhua.pch; sourceTree = "<group>"; };
 		C4D03C2D1BD7336F0008ED73 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		C4D03C2F1BD7339E0008ED73 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		C4D03C311BD733B70008ED73 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C4D03C331BD733C90008ED73 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C4D03C351BD733D90008ED73 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -264,9 +258,6 @@
 				C45D07B41C1552B2005BF307 /* libz.1.dylib in Frameworks */,
 				C45D07B61C155303005BF307 /* libsqlite3.dylib in Frameworks */,
 				C4921C761C02C84F0001D90D /* JavaScriptCore.framework in Frameworks */,
-				C4269A351BD79A9D00F62A62 /* libc++.dylib in Frameworks */,
-				C4D03C301BD7339E0008ED73 /* libz.dylib in Frameworks */,
-				C4269A371BD79B2900F62A62 /* libsqlite3.dylib in Frameworks */,
 				C4D03C861BD738B70008ED73 /* Security.framework in Frameworks */,
 				C4D03C841BD7389F0008ED73 /* CFNetwork.framework in Frameworks */,
 				C4D03C361BD733D90008ED73 /* SystemConfiguration.framework in Frameworks */,
@@ -358,14 +349,11 @@
 				C45D07B51C155303005BF307 /* libsqlite3.dylib */,
 				C45D07B31C1552B2005BF307 /* libz.1.dylib */,
 				C4921C751C02C84F0001D90D /* JavaScriptCore.framework */,
-				C4269A361BD79B2900F62A62 /* libsqlite3.dylib */,
-				C4269A341BD79A9D00F62A62 /* libc++.dylib */,
 				C4D03C851BD738B70008ED73 /* Security.framework */,
 				C4D03C831BD7389F0008ED73 /* CFNetwork.framework */,
 				C4D03C351BD733D90008ED73 /* SystemConfiguration.framework */,
 				C4D03C331BD733C90008ED73 /* CoreTelephony.framework */,
 				C4D03C311BD733B70008ED73 /* QuartzCore.framework */,
-				C4D03C2F1BD7339E0008ED73 /* libz.dylib */,
 				C4D03C2D1BD7336F0008ED73 /* CoreText.framework */,
 				C4D03B881BD727660008ED73 /* juhua */,
 				C4D03BA21BD727660008ED73 /* juhuaTests */,
@@ -870,6 +858,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -883,7 +872,7 @@
 					"$(SRCROOT)/juhua/aliPay",
 				);
 				INFOPLIST_FILE = juhua/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -910,6 +899,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -923,7 +913,7 @@
 					"$(SRCROOT)/juhua/aliPay",
 				);
 				INFOPLIST_FILE = juhua/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
