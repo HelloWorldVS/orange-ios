@@ -34,10 +34,11 @@
     CGFloat w = self.view.bounds.size.width;
     
     // 本地加载 --- 创建不带标题的图片轮播器
-    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, w, 140) imagesGroup:images];
+    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, w, 180) imagesGroup:images];
     
     cycleScrollView.infiniteLoop = YES;
     cycleScrollView.delegate = self;
+    cycleScrollView.dotColor = KGreenColor;
     cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleAnimated;
     [self.view addSubview:cycleScrollView];
     //         --- 轮播时间间隔，默认1.0秒，可自定义
