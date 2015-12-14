@@ -124,7 +124,6 @@
 		C49A4D801C059E4700C55834 /* JHAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49A4D7E1C059E4700C55834 /* JHAccountViewController.xib */; };
 		C49A4D841C059E9600C55834 /* JHAdviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D821C059E9600C55834 /* JHAdviceViewController.m */; };
 		C49A4D851C059E9600C55834 /* JHAdviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49A4D831C059E9600C55834 /* JHAdviceViewController.xib */; };
-		C49A4D881C059EC800C55834 /* JHUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D871C059EC800C55834 /* JHUpdateViewController.m */; };
 		C49A4D8B1C059EF200C55834 /* JHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D8A1C059EF200C55834 /* JHAboutViewController.m */; };
 		C49A4D8F1C059F1600C55834 /* JHInviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D8D1C059F1600C55834 /* JHInviteViewController.m */; };
 		C49A4D901C059F1600C55834 /* JHInviteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49A4D8E1C059F1600C55834 /* JHInviteViewController.xib */; };
@@ -364,8 +363,6 @@
 		C49A4D811C059E9600C55834 /* JHAdviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAdviceViewController.h; sourceTree = "<group>"; };
 		C49A4D821C059E9600C55834 /* JHAdviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAdviceViewController.m; sourceTree = "<group>"; };
 		C49A4D831C059E9600C55834 /* JHAdviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHAdviceViewController.xib; sourceTree = "<group>"; };
-		C49A4D861C059EC800C55834 /* JHUpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUpdateViewController.h; sourceTree = "<group>"; };
-		C49A4D871C059EC800C55834 /* JHUpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUpdateViewController.m; sourceTree = "<group>"; };
 		C49A4D891C059EF200C55834 /* JHAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAboutViewController.h; sourceTree = "<group>"; };
 		C49A4D8A1C059EF200C55834 /* JHAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAboutViewController.m; sourceTree = "<group>"; };
 		C49A4D8C1C059F1600C55834 /* JHInviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInviteViewController.h; sourceTree = "<group>"; };
@@ -1041,8 +1038,6 @@
 				C49A4D811C059E9600C55834 /* JHAdviceViewController.h */,
 				C49A4D821C059E9600C55834 /* JHAdviceViewController.m */,
 				C49A4D831C059E9600C55834 /* JHAdviceViewController.xib */,
-				C49A4D861C059EC800C55834 /* JHUpdateViewController.h */,
-				C49A4D871C059EC800C55834 /* JHUpdateViewController.m */,
 				C49A4D891C059EF200C55834 /* JHAboutViewController.h */,
 				C49A4D8A1C059EF200C55834 /* JHAboutViewController.m */,
 				C49A4D8C1C059F1600C55834 /* JHInviteViewController.h */,
@@ -1407,7 +1402,6 @@
 				C49A4D841C059E9600C55834 /* JHAdviceViewController.m in Sources */,
 				C4F1DD7C1BEAF2D50041984A /* AFHTTPSessionManager.m in Sources */,
 				C4F1DD7B1BEAF2D50041984A /* AFHTTPRequestOperationManager.m in Sources */,
-				C49A4D881C059EC800C55834 /* JHUpdateViewController.m in Sources */,
 				C4F1DD771BEAF2D50041984A /* NSData+CommonCrypto.m in Sources */,
 				C4082A981C12D3BD0087B7FA /* MASViewConstraint.m in Sources */,
 				C45D07CE1C155D3B005BF307 /* SDCycleScrollView.m in Sources */,

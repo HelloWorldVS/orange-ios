@@ -12,6 +12,14 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+//配置nslog
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "JHUtils.h"

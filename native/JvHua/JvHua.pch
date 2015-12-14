@@ -52,7 +52,7 @@ typedef void(^FAILURE_LOGIN)(void);
 #define KDarkColor [UIColor colorWithRed:81/256.0 green:81/256.0 blue:81/256.0 alpha:1]
 #define KGreyColor [UIColor colorWithRed:173/256.0 green:173/256.0 blue:173/256.0 alpha:1]
 #define KRedColor [UIColor colorWithRed:255/256.0 green:255/256.0 blue:89/256.0 alpha:1]
-
+#define KLightGreyColor [UIColor colorWithRed:242/256.0 green:242/256.0 blue:242/256.0 alpha:1]
 
 //版本号保存的key
 #define KEY_VERSION @"CFBundleShortVersionString"

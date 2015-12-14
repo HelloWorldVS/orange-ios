@@ -43,7 +43,7 @@
     
     //http://192.168.0.119/main   http://www.juhuaba.com
     
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.juhuaba.com?plantform=ios"]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.juhuaba.com/main?plantform=ios"]];
     [self.view addSubview: _webView];
     [_webView loadRequest:request];
     [_webView setDelegate:self];
@@ -77,37 +77,37 @@
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
     
     //注
-    NSString *urlString = [[request URL] absoluteString];
-    urlString = [urlString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSLog(@"urlString=%@",urlString);
-    NSArray *urlComps = [urlString componentsSeparatedByString:@"://"];
-    
-    if([urlComps count] && [[urlComps objectAtIndex:0] isEqualToString:@"objc"])
-    {
-        
-        NSArray *arrFucnameAndParameter = [(NSString*)[urlComps objectAtIndex:1] componentsSeparatedByString:@":/"];
-        NSString *funcStr = [arrFucnameAndParameter objectAtIndex:0];
-        
-        if (1 == [arrFucnameAndParameter count])
-        {
-            // 没有参数
-            if([funcStr isEqualToString:@"doFunc1"])
-            {
-                
-                // 调用本地函数1
-                NSLog(@"doFunc1");
-                
-            }
-        }
-        else
-        {
-            //有参数的
-            if([funcStr isEqualToString:@"getParam1:withParam2:"])
-            {
-            }
-        }
-        return NO;
-    }
+//    NSString *urlString = [[request URL] absoluteString];
+//    urlString = [urlString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//    NSLog(@"urlString=%@",urlString);
+//    NSArray *urlComps = [urlString componentsSeparatedByString:@"://"];
+//    
+//    if([urlComps count] && [[urlComps objectAtIndex:0] isEqualToString:@"objc"])
+//    {
+//        
+//        NSArray *arrFucnameAndParameter = [(NSString*)[urlComps objectAtIndex:1] componentsSeparatedByString:@":/"];
+//        NSString *funcStr = [arrFucnameAndParameter objectAtIndex:0];
+//        
+//        if (1 == [arrFucnameAndParameter count])
+//        {
+//            // 没有参数
+//            if([funcStr isEqualToString:@"doFunc1"])
+//            {
+//                
+//                // 调用本地函数1
+//                NSLog(@"doFunc1");
+//                
+//            }
+//        }
+//        else
+//        {
+//            //有参数的
+//            if([funcStr isEqualToString:@"getParam1:withParam2:"])
+//            {
+//            }
+//        }
+//        return NO;
+//    }
     //注
     return TRUE;
 }

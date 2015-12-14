@@ -84,7 +84,7 @@
         button.selected = YES;
         self.selectedTabBarButton = button;
     } else {
-        if (button.tag != 4) {
+        if (button.tag != 5) {
             self.selectedTabBarButton.selected = NO;
             button.selected = YES;
             self.selectedTabBarButton = button;
