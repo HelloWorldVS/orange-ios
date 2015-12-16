@@ -60,6 +60,8 @@
 		C45280641C08400A00245653 /* JHSettingItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C45280631C08400A00245653 /* JHSettingItemCell.m */; };
 		C45280671C08428800245653 /* JHItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C45280661C08428800245653 /* JHItemLabel.m */; };
 		C452806A1C085BE900245653 /* JHComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C45280691C085BE900245653 /* JHComposeView.m */; };
+		C45660811C20091B0021D86E /* JHInfoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C456607F1C20091B0021D86E /* JHInfoImageCell.m */; };
+		C45660821C20091B0021D86E /* JHInfoImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45660801C20091B0021D86E /* JHInfoImageCell.xib */; };
 		C457919E1BEB75E5009C297C /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C457919A1BEB75E4009C297C /* MBProgressHUD+MJ.m */; };
 		C457919F1BEB75E5009C297C /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C457919B1BEB75E4009C297C /* MBProgressHUD.bundle */; };
 		C45791A01BEB75E5009C297C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C457919D1BEB75E4009C297C /* MBProgressHUD.m */; };
@@ -127,6 +129,8 @@
 		C49A4D8B1C059EF200C55834 /* JHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D8A1C059EF200C55834 /* JHAboutViewController.m */; };
 		C49A4D8F1C059F1600C55834 /* JHInviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49A4D8D1C059F1600C55834 /* JHInviteViewController.m */; };
 		C49A4D901C059F1600C55834 /* JHInviteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49A4D8E1C059F1600C55834 /* JHInviteViewController.xib */; };
+		C4E14C4E1C1FBCB300B1981B /* JHAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E14C4D1C1FBCB300B1981B /* JHAddressController.m */; };
+		C4E14C511C1FBDD800B1981B /* JHCreditController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E14C501C1FBDD800B1981B /* JHCreditController.m */; };
 		C4E70CF81C0DB73100131144 /* JHSellingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E70CF71C0DB73100131144 /* JHSellingVC.m */; };
 		C4E70CFB1C0DB73E00131144 /* JHWalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E70CFA1C0DB73E00131144 /* JHWalletVC.m */; };
 		C4F0DD761BE84BC70051A24A /* JHHomeTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */; };
@@ -257,6 +261,9 @@
 		C45280661C08428800245653 /* JHItemLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHItemLabel.m; sourceTree = "<group>"; };
 		C45280681C085BE900245653 /* JHComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposeView.h; sourceTree = "<group>"; };
 		C45280691C085BE900245653 /* JHComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposeView.m; sourceTree = "<group>"; };
+		C456607E1C20091B0021D86E /* JHInfoImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInfoImageCell.h; sourceTree = "<group>"; };
+		C456607F1C20091B0021D86E /* JHInfoImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHInfoImageCell.m; sourceTree = "<group>"; };
+		C45660801C20091B0021D86E /* JHInfoImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHInfoImageCell.xib; sourceTree = "<group>"; };
 		C45791991BEB75E4009C297C /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		C457919A1BEB75E4009C297C /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		C457919B1BEB75E4009C297C /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -368,6 +375,10 @@
 		C49A4D8C1C059F1600C55834 /* JHInviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInviteViewController.h; sourceTree = "<group>"; };
 		C49A4D8D1C059F1600C55834 /* JHInviteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHInviteViewController.m; sourceTree = "<group>"; };
 		C49A4D8E1C059F1600C55834 /* JHInviteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHInviteViewController.xib; sourceTree = "<group>"; };
+		C4E14C4C1C1FBCB300B1981B /* JHAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAddressController.h; sourceTree = "<group>"; };
+		C4E14C4D1C1FBCB300B1981B /* JHAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAddressController.m; sourceTree = "<group>"; };
+		C4E14C4F1C1FBDD800B1981B /* JHCreditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCreditController.h; sourceTree = "<group>"; };
+		C4E14C501C1FBDD800B1981B /* JHCreditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCreditController.m; sourceTree = "<group>"; };
 		C4E70CF61C0DB73100131144 /* JHSellingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHSellingVC.h; path = JvHua/Classes/JHSellingVC.h; sourceTree = SOURCE_ROOT; };
 		C4E70CF71C0DB73100131144 /* JHSellingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHSellingVC.m; path = JvHua/Classes/JHSellingVC.m; sourceTree = SOURCE_ROOT; };
 		C4E70CF91C0DB73E00131144 /* JHWalletVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHWalletVC.h; path = JvHua/Classes/JHWalletVC.h; sourceTree = SOURCE_ROOT; };
@@ -1022,7 +1033,6 @@
 				C45280501C08338200245653 /* JHBaseSettingController.h */,
 				C45280511C08338200245653 /* JHBaseSettingController.m */,
 				C46AF88E1BF1CEFD00D26C7B /* Model */,
-				C46AF88F1BF1CEFD00D26C7B /* View */,
 			);
 			path = "Setting(设置)";
 			sourceTree = "<group>";
@@ -1043,6 +1053,10 @@
 				C49A4D8C1C059F1600C55834 /* JHInviteViewController.h */,
 				C49A4D8D1C059F1600C55834 /* JHInviteViewController.m */,
 				C49A4D8E1C059F1600C55834 /* JHInviteViewController.xib */,
+				C4E14C4C1C1FBCB300B1981B /* JHAddressController.h */,
+				C4E14C4D1C1FBCB300B1981B /* JHAddressController.m */,
+				C4E14C4F1C1FBDD800B1981B /* JHCreditController.h */,
+				C4E14C501C1FBDD800B1981B /* JHCreditController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1060,6 +1074,7 @@
 				C452805D1C08365500245653 /* JHItemSwitch.m */,
 				C45280651C08428800245653 /* JHItemLabel.h */,
 				C45280661C08428800245653 /* JHItemLabel.m */,
+				C46AF88F1BF1CEFD00D26C7B /* View */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1071,8 +1086,12 @@
 				C45280631C08400A00245653 /* JHSettingItemCell.m */,
 				C45280681C085BE900245653 /* JHComposeView.h */,
 				C45280691C085BE900245653 /* JHComposeView.m */,
+				C456607E1C20091B0021D86E /* JHInfoImageCell.h */,
+				C456607F1C20091B0021D86E /* JHInfoImageCell.m */,
+				C45660801C20091B0021D86E /* JHInfoImageCell.xib */,
 			);
-			path = View;
+			name = View;
+			path = ../View;
 			sourceTree = "<group>";
 		};
 		C47B67A21C03FD80003BB8C8 /* SDWebImage */ = {
@@ -1289,6 +1308,7 @@
 				C49A4D901C059F1600C55834 /* JHInviteViewController.xib in Resources */,
 				C45D07D31C155D6D005BF307 /* h1.jpg in Resources */,
 				C4082ACF1C12D9B20087B7FA /* icon_personal_code@3x.png in Resources */,
+				C45660821C20091B0021D86E /* JHInfoImageCell.xib in Resources */,
 				C4082AB71C12D9370087B7FA /* icon_personal_activity@1x.png in Resources */,
 				C4082ABF1C12D9370087B7FA /* icon_personal_help@3x.png in Resources */,
 				C4082AC91C12D97D0087B7FA /* Login_validate@1x.png in Resources */,
@@ -1347,6 +1367,7 @@
 				C47B67F41C0466FB003BB8C8 /* JHMyController.m in Sources */,
 				C46876711BFC1ADF007606DE /* LGAlertView.h in Sources */,
 				C45D07CA1C155D3B005BF307 /* TAAnimatedDotView.m in Sources */,
+				C4E14C511C1FBDD800B1981B /* JHCreditController.m in Sources */,
 				C4082A971C12D3BD0087B7FA /* MASViewAttribute.m in Sources */,
 				C452805B1C0835F700245653 /* JHItemArrow.m in Sources */,
 				C47B67F01C0460D6003BB8C8 /* JHTabBarButton.m in Sources */,
@@ -1440,9 +1461,11 @@
 				C47B67E31C044DD9003BB8C8 /* NavigationInteractiveTransition.m in Sources */,
 				C47B67CA1C03FD80003BB8C8 /* SDWebImageDownloaderOperation.m in Sources */,
 				C49A4D7F1C059E4700C55834 /* JHAccountViewController.m in Sources */,
+				C4E14C4E1C1FBCB300B1981B /* JHAddressController.m in Sources */,
 				C4082AA41C12D49E0087B7FA /* ProfileCell.m in Sources */,
 				C47B67C51C03FD80003BB8C8 /* NSData+ImageContentType.m in Sources */,
 				C47B67D11C03FD80003BB8C8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				C45660811C20091B0021D86E /* JHInfoImageCell.m in Sources */,
 				C4082A991C12D3BD0087B7FA /* NSArray+MASAdditions.m in Sources */,
 				C408913C1BDA230D00F090B1 /* JHTemp2Controller.m in Sources */,
 			);

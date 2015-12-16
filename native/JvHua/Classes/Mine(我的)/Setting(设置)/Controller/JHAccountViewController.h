@@ -6,8 +6,8 @@
 //  Copyright © 2015年 juzi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JHBaseSettingController.h"
 
-@interface JHAccountViewController : UITableViewController
+@interface JHAccountViewController : JHBaseSettingController
 
 @end
