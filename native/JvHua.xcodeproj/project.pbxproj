@@ -60,8 +60,6 @@
 		C45280641C08400A00245653 /* JHSettingItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C45280631C08400A00245653 /* JHSettingItemCell.m */; };
 		C45280671C08428800245653 /* JHItemLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C45280661C08428800245653 /* JHItemLabel.m */; };
 		C452806A1C085BE900245653 /* JHComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C45280691C085BE900245653 /* JHComposeView.m */; };
-		C45660811C20091B0021D86E /* JHInfoImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C456607F1C20091B0021D86E /* JHInfoImageCell.m */; };
-		C45660821C20091B0021D86E /* JHInfoImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45660801C20091B0021D86E /* JHInfoImageCell.xib */; };
 		C457919E1BEB75E5009C297C /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C457919A1BEB75E4009C297C /* MBProgressHUD+MJ.m */; };
 		C457919F1BEB75E5009C297C /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C457919B1BEB75E4009C297C /* MBProgressHUD.bundle */; };
 		C45791A01BEB75E5009C297C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C457919D1BEB75E4009C297C /* MBProgressHUD.m */; };
@@ -261,9 +259,6 @@
 		C45280661C08428800245653 /* JHItemLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHItemLabel.m; sourceTree = "<group>"; };
 		C45280681C085BE900245653 /* JHComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHComposeView.h; sourceTree = "<group>"; };
 		C45280691C085BE900245653 /* JHComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHComposeView.m; sourceTree = "<group>"; };
-		C456607E1C20091B0021D86E /* JHInfoImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInfoImageCell.h; sourceTree = "<group>"; };
-		C456607F1C20091B0021D86E /* JHInfoImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHInfoImageCell.m; sourceTree = "<group>"; };
-		C45660801C20091B0021D86E /* JHInfoImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHInfoImageCell.xib; sourceTree = "<group>"; };
 		C45791991BEB75E4009C297C /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		C457919A1BEB75E4009C297C /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		C457919B1BEB75E4009C297C /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -1086,9 +1081,6 @@
 				C45280631C08400A00245653 /* JHSettingItemCell.m */,
 				C45280681C085BE900245653 /* JHComposeView.h */,
 				C45280691C085BE900245653 /* JHComposeView.m */,
-				C456607E1C20091B0021D86E /* JHInfoImageCell.h */,
-				C456607F1C20091B0021D86E /* JHInfoImageCell.m */,
-				C45660801C20091B0021D86E /* JHInfoImageCell.xib */,
 			);
 			name = View;
 			path = ../View;
@@ -1308,7 +1300,6 @@
 				C49A4D901C059F1600C55834 /* JHInviteViewController.xib in Resources */,
 				C45D07D31C155D6D005BF307 /* h1.jpg in Resources */,
 				C4082ACF1C12D9B20087B7FA /* icon_personal_code@3x.png in Resources */,
-				C45660821C20091B0021D86E /* JHInfoImageCell.xib in Resources */,
 				C4082AB71C12D9370087B7FA /* icon_personal_activity@1x.png in Resources */,
 				C4082ABF1C12D9370087B7FA /* icon_personal_help@3x.png in Resources */,
 				C4082AC91C12D97D0087B7FA /* Login_validate@1x.png in Resources */,
@@ -1465,7 +1456,6 @@
 				C4082AA41C12D49E0087B7FA /* ProfileCell.m in Sources */,
 				C47B67C51C03FD80003BB8C8 /* NSData+ImageContentType.m in Sources */,
 				C47B67D11C03FD80003BB8C8 /* UIImageView+HighlightedWebCache.m in Sources */,
-				C45660811C20091B0021D86E /* JHInfoImageCell.m in Sources */,
 				C4082A991C12D3BD0087B7FA /* NSArray+MASAdditions.m in Sources */,
 				C408913C1BDA230D00F090B1 /* JHTemp2Controller.m in Sources */,
 			);

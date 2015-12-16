@@ -8,6 +8,14 @@
 
 #import "JHBaseSettingController.h"
 
-@interface JHAccountViewController : JHBaseSettingController
+@interface JHAccountViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIImageView *iconImage;
+
+@property (weak, nonatomic) IBOutlet UIView *view1;
+
+@property (weak, nonatomic) IBOutlet UIView *view2;
+
+@property (weak, nonatomic) IBOutlet UIView *view3;
 
 @end
