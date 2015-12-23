@@ -47,6 +47,9 @@ typedef void(^FAILURE_LOGIN)(void);
 //屏幕高度
 #define SCREENH [UIScreen mainScreen].bounds.size.height
 
+#define JHFont(num)  [UIFont systemFontOfSize:num]
+
+
 //颜色
 #define KGreenColor [UIColor colorWithRed:22/256.0 green:205/256.0 blue:176 /256.0 alpha:1]
 #define KDarkColor [UIColor colorWithRed:81/256.0 green:81/256.0 blue:81/256.0 alpha:1]

@@ -51,4 +51,12 @@
  *  @return 图片的大小
  */
 +(CGSize)downloadImageSizeWithURL:(id)imageURL;
+
+
+/**
+ *  返回一张自由拉伸的图片
+ */
++ (UIImage *)resizedImageWithName:(NSString *)name;
++ (UIImage *)resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top;
+
 @end

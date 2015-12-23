@@ -21,6 +21,10 @@
     
      self.navigationController.title = @"限时热卖";
     
+//    
+//    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"selling_backgroundImage"]];
+////    backgroundView.frame = self.view.bounds;
+//    [self.view addSubview:backgroundView];
     
     [self setNav];
     

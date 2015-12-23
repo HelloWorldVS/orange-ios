@@ -9,6 +9,19 @@
 #import "UIImage+DK.h"
 
 @implementation UIImage (DK)
+
+
++ (UIImage *)resizedImageWithName:(NSString *)name
+{
+    return [self resizedImageWithName:name left:0.5 top:0.5];
+}
+
++ (UIImage *)resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top
+{
+    UIImage *image = [self imageWithName:name];
+    return [image stretchableImageWithLeftCapWidth:image.size.width * left topCapHeight:image.size.height * top];
+}
+
 + (instancetype)imageWithName:(NSString *)name
 {
     UIImage *image = nil;

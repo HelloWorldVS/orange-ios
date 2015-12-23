@@ -41,6 +41,9 @@
 #define KUserRegisterURL @"http://api.juhuaba.com/api/user/register"
 
 
+//更换头像
+#define KDisplayPic @"http://api.juhuaba.com/api/user/modifyDp/{displayPic}"
+
 
 //检查token是否有效(要换地址)
 #define DK_API_FOR_IS_TOKEN @"v1/oauth/check_token"
