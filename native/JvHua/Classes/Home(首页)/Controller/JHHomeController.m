@@ -86,16 +86,14 @@
 
 
 
-
-
-
-
 #pragma mark - 私有方法
 
 - (void)friendsearch:(UIButton *)btn{
     NSLog(@"%s",__func__);
+   self.hidesBottomBarWhenPushed=NO;
     JHMyController *Mvc = [[JHMyController alloc] init];
     [self.navigationController pushViewController:Mvc animated:YES];
+    
 //    JHTemp2Controller *PVC = [[JHTemp2Controller alloc] init];
 //    [self.navigationController pushViewController:PVC animated:YES];
     

@@ -90,6 +90,25 @@
 		C46AF8971BF1CEFD00D26C7B /* JHRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46AF8811BF1CEFD00D26C7B /* JHRegisterViewController.xib */; };
 		C46AF8981BF1CEFD00D26C7B /* JHLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46AF8841BF1CEFD00D26C7B /* JHLoginViewController.storyboard */; };
 		C46B0B8B1C06F0E4008AAF99 /* JHSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B0B8A1C06F0E4008AAF99 /* JHSettingController.m */; };
+		C478A9761C322D8B0079285A /* JHWalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9731C322D8B0079285A /* JHWalletVC.m */; };
+		C478A9791C322E4A0079285A /* JHBalanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9781C322E4A0079285A /* JHBalanceCell.m */; };
+		C478A97C1C322EDE0079285A /* JHMoneyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A97B1C322EDE0079285A /* JHMoneyCell.m */; };
+		C478A9BE1C33BFC60079285A /* JHCustomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9BD1C33BFC60079285A /* JHCustomVC.m */; };
+		C478A9C11C33C51A0079285A /* JHHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9C01C33C51A0079285A /* JHHeaderView.m */; };
+		C478A9C41C33C5500079285A /* JHHeaderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9C31C33C5500079285A /* JHHeaderButton.m */; };
+		C478A9C71C33C8D10079285A /* UIView+CZLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9C61C33C8D10079285A /* UIView+CZLineView.m */; };
+		C478A9CA1C33CC6A0079285A /* JHPrivilegeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9C91C33CC6A0079285A /* JHPrivilegeModel.m */; };
+		C478A9CD1C33CF360079285A /* JHDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9CC1C33CF360079285A /* JHDisplayView.m */; };
+		C478A9D01C33CF570079285A /* JHLeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9CF1C33CF570079285A /* JHLeftTableView.m */; };
+		C478A9D31C33CF710079285A /* JHRightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9D21C33CF710079285A /* JHRightTableView.m */; };
+		C478A9D61C33CFAD0079285A /* JHInfoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9D51C33CFAD0079285A /* JHInfoTableView.m */; };
+		C478A9DA1C33D0FA0079285A /* JHDisplayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9D91C33D0FA0079285A /* JHDisplayTool.m */; };
+		C478A9DE1C33D1BF0079285A /* JHBassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9DD1C33D1BF0079285A /* JHBassCell.m */; };
+		C478A9E11C33D1EC0079285A /* JHLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9E01C33D1EC0079285A /* JHLeftCell.m */; };
+		C478A9E41C33D2020079285A /* JHRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9E31C33D2020079285A /* JHRightCell.m */; };
+		C478A9E91C33D9B70079285A /* JHPrivilegeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9E81C33D9B70079285A /* JHPrivilegeTableView.m */; };
+		C478A9EC1C33D9F80079285A /* JHPrivielgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9EB1C33D9F80079285A /* JHPrivielgeCell.m */; };
+		C478A9F21C33DE9C0079285A /* JHCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A9F11C33DE9C0079285A /* JHCoverView.m */; };
 		C47B679E1C03F38C003BB8C8 /* JHHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B679D1C03F38C003BB8C8 /* JHHttpTool.m */; };
 		C47B67A11C03F979003BB8C8 /* JHUtilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B67A01C03F979003BB8C8 /* JHUtilTool.m */; };
 		C47B67C41C03FD80003BB8C8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C47B67A41C03FD80003BB8C8 /* MKAnnotationView+WebCache.m */; };
@@ -135,7 +154,6 @@
 		C4E14C4E1C1FBCB300B1981B /* JHAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E14C4D1C1FBCB300B1981B /* JHAddressController.m */; };
 		C4E14C511C1FBDD800B1981B /* JHCreditController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E14C501C1FBDD800B1981B /* JHCreditController.m */; };
 		C4E70CF81C0DB73100131144 /* JHSellingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E70CF71C0DB73100131144 /* JHSellingVC.m */; };
-		C4E70CFB1C0DB73E00131144 /* JHWalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E70CFA1C0DB73E00131144 /* JHWalletVC.m */; };
 		C4F0DD761BE84BC70051A24A /* JHHomeTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */; };
 		C4F1DD4E1BEAF1820041984A /* MyMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1DD4D1BEAF1820041984A /* MyMD5.m */; };
 		C4F1DD731BEAF2D50041984A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C4F1DD501BEAF2D50041984A /* .gitignore */; };
@@ -306,6 +324,45 @@
 		C46AF8841BF1CEFD00D26C7B /* JHLoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JHLoginViewController.storyboard; sourceTree = "<group>"; };
 		C46B0B891C06F0E4008AAF99 /* JHSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSettingController.h; sourceTree = "<group>"; };
 		C46B0B8A1C06F0E4008AAF99 /* JHSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSettingController.m; sourceTree = "<group>"; };
+		C478A9721C322D8B0079285A /* JHWalletVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWalletVC.h; sourceTree = "<group>"; };
+		C478A9731C322D8B0079285A /* JHWalletVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWalletVC.m; sourceTree = "<group>"; };
+		C478A9771C322E4A0079285A /* JHBalanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBalanceCell.h; sourceTree = "<group>"; };
+		C478A9781C322E4A0079285A /* JHBalanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBalanceCell.m; sourceTree = "<group>"; };
+		C478A97A1C322EDE0079285A /* JHMoneyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMoneyCell.h; sourceTree = "<group>"; };
+		C478A97B1C322EDE0079285A /* JHMoneyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMoneyCell.m; sourceTree = "<group>"; };
+		C478A9BC1C33BFC60079285A /* JHCustomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCustomVC.h; sourceTree = "<group>"; };
+		C478A9BD1C33BFC60079285A /* JHCustomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCustomVC.m; sourceTree = "<group>"; };
+		C478A9BF1C33C51A0079285A /* JHHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHeaderView.h; sourceTree = "<group>"; };
+		C478A9C01C33C51A0079285A /* JHHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHeaderView.m; sourceTree = "<group>"; };
+		C478A9C21C33C5500079285A /* JHHeaderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHeaderButton.h; sourceTree = "<group>"; };
+		C478A9C31C33C5500079285A /* JHHeaderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHeaderButton.m; sourceTree = "<group>"; };
+		C478A9C51C33C8D10079285A /* UIView+CZLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZLineView.h"; sourceTree = "<group>"; };
+		C478A9C61C33C8D10079285A /* UIView+CZLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZLineView.m"; sourceTree = "<group>"; };
+		C478A9C81C33CC6A0079285A /* JHPrivilegeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHPrivilegeModel.h; path = "JvHua/Classes/Home(首页)/View/JHPrivilegeModel.h"; sourceTree = SOURCE_ROOT; };
+		C478A9C91C33CC6A0079285A /* JHPrivilegeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHPrivilegeModel.m; path = "JvHua/Classes/Home(首页)/View/JHPrivilegeModel.m"; sourceTree = SOURCE_ROOT; };
+		C478A9CB1C33CF360079285A /* JHDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDisplayView.h; sourceTree = "<group>"; };
+		C478A9CC1C33CF360079285A /* JHDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDisplayView.m; sourceTree = "<group>"; };
+		C478A9CE1C33CF570079285A /* JHLeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLeftTableView.h; sourceTree = "<group>"; };
+		C478A9CF1C33CF570079285A /* JHLeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLeftTableView.m; sourceTree = "<group>"; };
+		C478A9D11C33CF710079285A /* JHRightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRightTableView.h; sourceTree = "<group>"; };
+		C478A9D21C33CF710079285A /* JHRightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRightTableView.m; sourceTree = "<group>"; };
+		C478A9D41C33CFAD0079285A /* JHInfoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHInfoTableView.h; sourceTree = "<group>"; };
+		C478A9D51C33CFAD0079285A /* JHInfoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHInfoTableView.m; sourceTree = "<group>"; };
+		C478A9D81C33D0FA0079285A /* JHDisplayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDisplayTool.h; sourceTree = "<group>"; };
+		C478A9D91C33D0FA0079285A /* JHDisplayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDisplayTool.m; sourceTree = "<group>"; };
+		C478A9DC1C33D1BF0079285A /* JHBassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBassCell.h; sourceTree = "<group>"; };
+		C478A9DD1C33D1BF0079285A /* JHBassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBassCell.m; sourceTree = "<group>"; };
+		C478A9DF1C33D1EC0079285A /* JHLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLeftCell.h; sourceTree = "<group>"; };
+		C478A9E01C33D1EC0079285A /* JHLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLeftCell.m; sourceTree = "<group>"; };
+		C478A9E21C33D2020079285A /* JHRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRightCell.h; sourceTree = "<group>"; };
+		C478A9E31C33D2020079285A /* JHRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRightCell.m; sourceTree = "<group>"; };
+		C478A9E61C33D3430079285A /* JHDisplayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDisplayDelegate.h; sourceTree = "<group>"; };
+		C478A9E71C33D9B70079285A /* JHPrivilegeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPrivilegeTableView.h; sourceTree = "<group>"; };
+		C478A9E81C33D9B70079285A /* JHPrivilegeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPrivilegeTableView.m; sourceTree = "<group>"; };
+		C478A9EA1C33D9F80079285A /* JHPrivielgeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPrivielgeCell.h; sourceTree = "<group>"; };
+		C478A9EB1C33D9F80079285A /* JHPrivielgeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPrivielgeCell.m; sourceTree = "<group>"; };
+		C478A9F01C33DE9C0079285A /* JHCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCoverView.h; sourceTree = "<group>"; };
+		C478A9F11C33DE9C0079285A /* JHCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCoverView.m; sourceTree = "<group>"; };
 		C47B679C1C03F38C003BB8C8 /* JHHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHttpTool.h; sourceTree = "<group>"; };
 		C47B679D1C03F38C003BB8C8 /* JHHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHttpTool.m; sourceTree = "<group>"; };
 		C47B679F1C03F979003BB8C8 /* JHUtilTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUtilTool.h; sourceTree = "<group>"; };
@@ -389,8 +446,6 @@
 		C4E14C501C1FBDD800B1981B /* JHCreditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCreditController.m; sourceTree = "<group>"; };
 		C4E70CF61C0DB73100131144 /* JHSellingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHSellingVC.h; path = JvHua/Classes/JHSellingVC.h; sourceTree = SOURCE_ROOT; };
 		C4E70CF71C0DB73100131144 /* JHSellingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHSellingVC.m; path = JvHua/Classes/JHSellingVC.m; sourceTree = SOURCE_ROOT; };
-		C4E70CF91C0DB73E00131144 /* JHWalletVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHWalletVC.h; path = JvHua/Classes/JHWalletVC.h; sourceTree = SOURCE_ROOT; };
-		C4E70CFA1C0DB73E00131144 /* JHWalletVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHWalletVC.m; path = JvHua/Classes/JHWalletVC.m; sourceTree = SOURCE_ROOT; };
 		C4F0DD741BE84BC70051A24A /* JHHomeTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHomeTitleButton.h; sourceTree = "<group>"; };
 		C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHomeTitleButton.m; sourceTree = "<group>"; };
 		C4F1DD4C1BEAF1820041984A /* MyMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMD5.h; sourceTree = "<group>"; };
@@ -589,7 +644,7 @@
 				C40891191BDA230D00F090B1 /* Public */,
 				C40891261BDA230D00F090B1 /* Selling(热卖) */,
 				C408912A1BDA230D00F090B1 /* Temp */,
-				C40891301BDA230D00F090B1 /* Wallet(钱包) */,
+				C478A9701C322D8B0079285A /* Wallet(钱包) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -630,10 +685,16 @@
 		C40891051BDA230D00F090B1 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				C478A9DB1C33D18C0079285A /* Cell */,
+				C478A9D71C33D0C50079285A /* Tool */,
 				C45D07D61C156A39005BF307 /* image */,
 				C40891061BDA230D00F090B1 /* Controller */,
 				C40891091BDA230D00F090B1 /* Model */,
 				C408910A1BDA230D00F090B1 /* View */,
+				C478A9E71C33D9B70079285A /* JHPrivilegeTableView.h */,
+				C478A9E81C33D9B70079285A /* JHPrivilegeTableView.m */,
+				C478A9EA1C33D9F80079285A /* JHPrivielgeCell.h */,
+				C478A9EB1C33D9F80079285A /* JHPrivielgeCell.m */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -643,6 +704,8 @@
 			children = (
 				C47B67FF1C047258003BB8C8 /* JHHomeController.h */,
 				C47B68001C047258003BB8C8 /* JHHomeController.m */,
+				C478A9BC1C33BFC60079285A /* JHCustomVC.h */,
+				C478A9BD1C33BFC60079285A /* JHCustomVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -650,6 +713,8 @@
 		C40891091BDA230D00F090B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C478A9C81C33CC6A0079285A /* JHPrivilegeModel.h */,
+				C478A9C91C33CC6A0079285A /* JHPrivilegeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -657,10 +722,24 @@
 		C408910A1BDA230D00F090B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C478A9F01C33DE9C0079285A /* JHCoverView.h */,
+				C478A9F11C33DE9C0079285A /* JHCoverView.m */,
 				C4F0DD741BE84BC70051A24A /* JHHomeTitleButton.h */,
 				C4F0DD751BE84BC70051A24A /* JHHomeTitleButton.m */,
 				C450AB761C2A2F4200AC670D /* JHSearchBar.h */,
 				C450AB771C2A2F4200AC670D /* JHSearchBar.m */,
+				C478A9BF1C33C51A0079285A /* JHHeaderView.h */,
+				C478A9C01C33C51A0079285A /* JHHeaderView.m */,
+				C478A9C21C33C5500079285A /* JHHeaderButton.h */,
+				C478A9C31C33C5500079285A /* JHHeaderButton.m */,
+				C478A9CB1C33CF360079285A /* JHDisplayView.h */,
+				C478A9CC1C33CF360079285A /* JHDisplayView.m */,
+				C478A9CE1C33CF570079285A /* JHLeftTableView.h */,
+				C478A9CF1C33CF570079285A /* JHLeftTableView.m */,
+				C478A9D11C33CF710079285A /* JHRightTableView.h */,
+				C478A9D21C33CF710079285A /* JHRightTableView.m */,
+				C478A9D41C33CFAD0079285A /* JHInfoTableView.h */,
+				C478A9D51C33CFAD0079285A /* JHInfoTableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -724,6 +803,8 @@
 		C408911A1BDA230D00F090B1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C478A9C51C33C8D10079285A /* UIView+CZLineView.h */,
+				C478A9C61C33C8D10079285A /* UIView+CZLineView.m */,
 				C47B68021C047B83003BB8C8 /* UIImage+DK.h */,
 				C47B68031C047B83003BB8C8 /* UIImage+DK.m */,
 				C408911B1BDA230D00F090B1 /* UIBarButtonItem+Extension.h */,
@@ -829,39 +910,6 @@
 			sourceTree = "<group>";
 		};
 		C408912F1BDA230D00F090B1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C40891301BDA230D00F090B1 /* Wallet(钱包) */ = {
-			isa = PBXGroup;
-			children = (
-				C40891311BDA230D00F090B1 /* Controller */,
-				C40891321BDA230D00F090B1 /* Model */,
-				C40891331BDA230D00F090B1 /* View */,
-			);
-			path = "Wallet(钱包)";
-			sourceTree = "<group>";
-		};
-		C40891311BDA230D00F090B1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C4E70CF91C0DB73E00131144 /* JHWalletVC.h */,
-				C4E70CFA1C0DB73E00131144 /* JHWalletVC.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C40891321BDA230D00F090B1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C40891331BDA230D00F090B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -1106,6 +1154,66 @@
 			);
 			name = View;
 			path = ../View;
+			sourceTree = "<group>";
+		};
+		C478A9701C322D8B0079285A /* Wallet(钱包) */ = {
+			isa = PBXGroup;
+			children = (
+				C478A9711C322D8B0079285A /* Controller */,
+				C478A9741C322D8B0079285A /* Model */,
+				C478A9751C322D8B0079285A /* View */,
+			);
+			path = "Wallet(钱包)";
+			sourceTree = "<group>";
+		};
+		C478A9711C322D8B0079285A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C478A9721C322D8B0079285A /* JHWalletVC.h */,
+				C478A9731C322D8B0079285A /* JHWalletVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C478A9741C322D8B0079285A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C478A9751C322D8B0079285A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C478A9771C322E4A0079285A /* JHBalanceCell.h */,
+				C478A9781C322E4A0079285A /* JHBalanceCell.m */,
+				C478A97A1C322EDE0079285A /* JHMoneyCell.h */,
+				C478A97B1C322EDE0079285A /* JHMoneyCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C478A9D71C33D0C50079285A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C478A9D81C33D0FA0079285A /* JHDisplayTool.h */,
+				C478A9D91C33D0FA0079285A /* JHDisplayTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		C478A9DB1C33D18C0079285A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C478A9DC1C33D1BF0079285A /* JHBassCell.h */,
+				C478A9DD1C33D1BF0079285A /* JHBassCell.m */,
+				C478A9DF1C33D1EC0079285A /* JHLeftCell.h */,
+				C478A9E01C33D1EC0079285A /* JHLeftCell.m */,
+				C478A9E21C33D2020079285A /* JHRightCell.h */,
+				C478A9E31C33D2020079285A /* JHRightCell.m */,
+				C478A9E61C33D3430079285A /* JHDisplayDelegate.h */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		C47B67A21C03FD80003BB8C8 /* SDWebImage */ = {
@@ -1376,7 +1484,6 @@
 			files = (
 				C468767D1BFC5F5D007606DE /* JHHomeTitleButton.h in Sources */,
 				C47F3DD71C22B33A004B4D77 /* JHUserAddressModel.m in Sources */,
-				C4E70CFB1C0DB73E00131144 /* JHWalletVC.m in Sources */,
 				C4082AA31C12D49E0087B7FA /* MoneyCell.m in Sources */,
 				C47B67CB1C03FD80003BB8C8 /* SDWebImageManager.m in Sources */,
 				C47B67F41C0466FB003BB8C8 /* JHMyController.m in Sources */,
@@ -1390,6 +1497,7 @@
 				C450AB721C29411A00AC670D /* TAPageControl.m in Sources */,
 				C47B67DA1C03FF44003BB8C8 /* Reachability.m in Sources */,
 				C46876731BFC1ADF007606DE /* LGAlertViewShared.h in Sources */,
+				C478A9C11C33C51A0079285A /* JHHeaderView.m in Sources */,
 				C46876741BFC1ADF007606DE /* LGAlertViewTextField.h in Sources */,
 				C47B67CF1C03FD80003BB8C8 /* UIImage+MultiFormat.m in Sources */,
 				C46876701BFC1ACC007606DE /* JHForgetPasswordViewController.m in Sources */,
@@ -1398,9 +1506,11 @@
 				C4F1DD7F1BEAF2D50041984A /* AFSecurityPolicy.m in Sources */,
 				C4F1DD761BEAF2D50041984A /* NSData+Base64.m in Sources */,
 				C4F1DD841BEAF2D50041984A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				C478A9D01C33CF570079285A /* JHLeftTableView.m in Sources */,
 				C4082A9B1C12D3BD0087B7FA /* View+MASAdditions.m in Sources */,
 				C4F1DD7A1BEAF2D50041984A /* AFHTTPRequestOperation.m in Sources */,
 				C47F3DD31C229B94004B4D77 /* JHAddressCell.m in Sources */,
+				C478A9BE1C33BFC60079285A /* JHCustomVC.m in Sources */,
 				C40891371BDA230D00F090B1 /* JHNewFeatureViewController.m in Sources */,
 				C47B67CE1C03FD80003BB8C8 /* UIImage+GIF.m in Sources */,
 				C4F1DD801BEAF2D50041984A /* AFURLConnectionOperation.m in Sources */,
@@ -1410,13 +1520,16 @@
 				C4F0DD761BE84BC70051A24A /* JHHomeTitleButton.m in Sources */,
 				C47B67E21C044DD9003BB8C8 /* Nav.m in Sources */,
 				C457919E1BEB75E5009C297C /* MBProgressHUD+MJ.m in Sources */,
+				C478A9DA1C33D0FA0079285A /* JHDisplayTool.m in Sources */,
 				C4F1DD4E1BEAF1820041984A /* MyMD5.m in Sources */,
 				C46AF8961BF1CEFD00D26C7B /* JHRegisterViewController.m in Sources */,
 				C4F1DD831BEAF2D50041984A /* AFURLSessionManager.m in Sources */,
 				C4F1DD781BEAF2D50041984A /* NSString+Base64.m in Sources */,
 				C4FC11EB1BEDE10F00E84F17 /* LGAlertViewCell.m in Sources */,
 				C450AB731C29411A00AC670D /* SDCollectionViewCell.m in Sources */,
+				C478A9E41C33D2020079285A /* JHRightCell.m in Sources */,
 				C408913B1BDA230D00F090B1 /* JHTabBarController.m in Sources */,
+				C478A9E91C33D9B70079285A /* JHPrivilegeTableView.m in Sources */,
 				C47B67CD1C03FD80003BB8C8 /* UIButton+WebCache.m in Sources */,
 				C47B68041C047B83003BB8C8 /* UIImage+DK.m in Sources */,
 				C45280671C08428800245653 /* JHItemLabel.m in Sources */,
@@ -1426,6 +1539,7 @@
 				C45280641C08400A00245653 /* JHSettingItemCell.m in Sources */,
 				C450AB701C29411A00AC670D /* TAAnimatedDotView.m in Sources */,
 				C45791A51BEB8129009C297C /* OZHNetWork.m in Sources */,
+				C478A9EC1C33D9F80079285A /* JHPrivielgeCell.m in Sources */,
 				C4082A951C12D3BD0087B7FA /* MASConstraintMaker.m in Sources */,
 				C47B67C91C03FD80003BB8C8 /* SDWebImageDownloader.m in Sources */,
 				C40891381BDA230D00F090B1 /* UIBarButtonItem+Extension.m in Sources */,
@@ -1441,7 +1555,10 @@
 				C4F1DD7C1BEAF2D50041984A /* AFHTTPSessionManager.m in Sources */,
 				C4F1DD7B1BEAF2D50041984A /* AFHTTPRequestOperationManager.m in Sources */,
 				C4F1DD771BEAF2D50041984A /* NSData+CommonCrypto.m in Sources */,
+				C478A97C1C322EDE0079285A /* JHMoneyCell.m in Sources */,
 				C450AB751C29411A00AC670D /* UIView+SDExtension.m in Sources */,
+				C478A9C71C33C8D10079285A /* UIView+CZLineView.m in Sources */,
+				C478A9D31C33CF710079285A /* JHRightTableView.m in Sources */,
 				C450AB711C29411A00AC670D /* TADotView.m in Sources */,
 				C450AB741C29411A00AC670D /* SDCycleScrollView.m in Sources */,
 				C4082A981C12D3BD0087B7FA /* MASViewConstraint.m in Sources */,
@@ -1464,13 +1581,22 @@
 				C4F1DD7D1BEAF2D50041984A /* AFNetworkActivityIndicatorManager.m in Sources */,
 				C450AB6F1C29411A00AC670D /* TAAbstractDotView.m in Sources */,
 				C46AF8941BF1CEFD00D26C7B /* JHLoginViewController.m in Sources */,
+				C478A9E11C33D1EC0079285A /* JHLeftCell.m in Sources */,
+				C478A9791C322E4A0079285A /* JHBalanceCell.m in Sources */,
 				C4F1DD741BEAF2D50041984A /* AESCrypt.m in Sources */,
+				C478A9C41C33C5500079285A /* JHHeaderButton.m in Sources */,
 				C47B68011C047258003BB8C8 /* JHHomeController.m in Sources */,
+				C478A9CA1C33CC6A0079285A /* JHPrivilegeModel.m in Sources */,
 				C4F1DD811BEAF2D50041984A /* AFURLRequestSerialization.m in Sources */,
 				C47B67C61C03FD80003BB8C8 /* SDImageCache.m in Sources */,
 				C4F1DD791BEAF2D50041984A /* README.md in Sources */,
+				C478A9CD1C33CF360079285A /* JHDisplayView.m in Sources */,
+				C478A9DE1C33D1BF0079285A /* JHBassCell.m in Sources */,
 				C47B67DB1C03FF44003BB8C8 /* README.md in Sources */,
+				C478A9761C322D8B0079285A /* JHWalletVC.m in Sources */,
 				C47B67C41C03FD80003BB8C8 /* MKAnnotationView+WebCache.m in Sources */,
+				C478A9F21C33DE9C0079285A /* JHCoverView.m in Sources */,
+				C478A9D61C33CFAD0079285A /* JHInfoTableView.m in Sources */,
 				C46AF8901BF1CEFD00D26C7B /* JHChangePasswordViewController.m in Sources */,
 				C49A4D8F1C059F1600C55834 /* JHInviteViewController.m in Sources */,
 				C46B0B8B1C06F0E4008AAF99 /* JHSettingController.m in Sources */,

@@ -9,7 +9,7 @@
 #import "JHTabBarController.h"
 #import "JHNavigationController.h"
 
-#import "JHHomeController.h"
+#import "JHCustomVC.h"
 #import "JHClassificationController.h"
 
 #import "JHSellingVC.h"
@@ -25,7 +25,7 @@
 
 @property (nonatomic, weak) JHTabBar *customTabBar;
 
-@property (nonatomic, weak) JHHomeController *home;
+@property (nonatomic, weak) JHCustomVC *customer;
 @property (nonatomic, weak) JHClassificationController *msg;
 @property (nonatomic, weak) JHSellingVC *hot;
 @property (nonatomic, weak) JHWalletVC *wallet;
@@ -90,13 +90,16 @@
 //        
 //    }];
     
-    //添加首页
-    JHHomeController *homeCtlt = [[JHHomeController alloc] init];
-    [self addChildViewCtrlWithTitle:@"首页" image:@"tabbar_home" ctrl:homeCtlt];
+//    //添加首页
+//    JHHomeController *homeCtlt = [[JHHomeController alloc] init];
+//    [self addChildViewCtrlWithTitle:@"商户" image:@"tabbar_home" ctrl:homeCtlt];
     
-    //添加分类
-    JHClassificationController *msgCtlt = [[JHClassificationController alloc] init];
-    [self addChildViewCtrlWithTitle:@"分类" image:@"tabbar_message_center" ctrl:msgCtlt];
+    //添加商户
+    JHCustomVC *customCtlt = [[JHCustomVC alloc] init];
+    [self addChildViewCtrlWithTitle:@"商户" image:@"tabbar_home" ctrl:customCtlt];
+//    //添加分类
+//    JHClassificationController *msgCtlt = [[JHClassificationController alloc] init];
+//    [self addChildViewCtrlWithTitle:@"分类" image:@"tabbar_message_center" ctrl:msgCtlt];
     
     
     //添加热卖
@@ -169,7 +172,7 @@
 - (void)tabBar:(JHTabBar *)tabBar didSelectButtonFrom:(NSInteger)from to:(NSInteger)to btn:(JHTabBarButton *)btn oldBtn:(JHTabBarButton *)oldBtn
 {
     
-    DKLog(@"---tabBarindex =%ld", to);
+    DKLog(@"---tabBarindex =%ld", (long)to);
     
     if (to == 4) {
         //        BOOL isLogin = [[[NSUserDefaults standardUserDefaults] objectForKey:@"checkLogin"] boolValue];
@@ -215,7 +218,7 @@
 
 - (void)addChildViewCtrlWithTitle:(NSString *)title image:(NSString *)image ctrl:(UIViewController *)ctrl{
     
-    ctrl.view.backgroundColor = [UIColor whiteColor];
+    ctrl.view.backgroundColor = [UIColor whiteColor];   
     
     //初始化子控制器
     //    UIViewController *ctrl = [[UIViewController alloc] init];

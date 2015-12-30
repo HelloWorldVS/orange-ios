@@ -36,10 +36,11 @@ typedef void(^FAILURE_LOGIN)(void);
 #import "SDWebImageManager.h"
 #import "Reachability.h"
 #import "UIImage+DK.h"
-
+#import "UIView+CZLineView.h"
 
 #import "Interface.h"
 
+#import "JHDisplayDelegate.h"
 
 
 //屏幕宽度
@@ -48,6 +49,15 @@ typedef void(^FAILURE_LOGIN)(void);
 #define SCREENH [UIScreen mainScreen].bounds.size.height
 
 #define JHFont(num)  [UIFont systemFontOfSize:num]
+#define kViewSize (self.frame.size)
+#define kMargin 10
+#define kNormalLineHeight 0.5
+#define kViewContentHeight (kScreenSize.height - kNavigationBarHeight - kStatusBarHeight - kTabBarHeight)
+#define kExplandHeight (kScreenSize.height * 0.4)
+#define kScreenSize ([UIScreen mainScreen].bounds.size)
+#define kNavigationBarHeight 44
+#define kStatusBarHeight 20
+#define kTabBarHeight 49
 
 
 //颜色
@@ -56,6 +66,19 @@ typedef void(^FAILURE_LOGIN)(void);
 #define KGreyColor [UIColor colorWithRed:173/256.0 green:173/256.0 blue:173/256.0 alpha:1]
 #define KRedColor [UIColor colorWithRed:255/256.0 green:255/256.0 blue:89/256.0 alpha:1]
 #define KLightGreyColor [UIColor colorWithRed:242/256.0 green:242/256.0 blue:242/256.0 alpha:1]
+
+#define rgbColor(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+#define kNotificationDidFinishLoading @"kNotificationDidFinishLoading"
+
+#define kNotificationDidClickHeaderButton @"kNotificationDidClickHeaderButton"
+
+#define kNotificationStartSearch @"kNotificationStartSearch"
+
+#define kNotificationPresentLogin @"kNotificationPresentLogin"
+
+#define kNotificationLoginSuccess @"kNotificationLoginSuccess"
 
 //版本号保存的key
 #define KEY_VERSION @"CFBundleShortVersionString"

@@ -115,7 +115,6 @@
     
 //    UIViewController *ctrl =  self.viewControllers.firstObject;
     if (self.viewControllers.count > 0) {
-        viewController.hidesBottomBarWhenPushed = YES;
         
         viewController.hidesBottomBarWhenPushed = YES;
         UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 21, 21)];
